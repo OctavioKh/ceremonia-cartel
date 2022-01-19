@@ -7,8 +7,10 @@ import Artistas from "../components/artistas";
 // import Demo from "../Mailchimp.jsx";
 import Boletos from "../components/boletos";
 import Footer from "../components/footer";
+import Sponsors from "../components/sponsors";
 import Venue from "../components/venue";
 // import Menu from "../Nav.js";
+import strip from "../assets/images/strip01.png";
 
 // import MailchimpSubscribe from "react-mailchimp-subscribe";
 
@@ -19,7 +21,7 @@ class Banner extends React.Component {
               <img
                 alt="Cartel Ceremonia 2022"
                 className="banner_img"
-                src="https://festivalceremonia.com/upload/04/CRMN20_CartelFinal_CitiBanamex_Hor_V6.png"
+                src="https://festivalceremonia.com/img/FC2021/CRMN22_Lineup_01.png"
               />
             </div>
     );
@@ -29,40 +31,19 @@ class Banner extends React.Component {
 class VideoCartel extends React.Component {
   render() {
     return (
-      <div class="videoWrapper">
+      <div className="videoWrapper">
       <iframe 
          width="100%"
          height="698px" 
-         src="https://www.youtube.com/embed/C0DPdy98e4c?modestbranding=1&rel=0&showinfo=0&controls=0"
-         frameborder="0"
-         allowfullscreen></iframe>
+         src="https://www.youtube.com/embed/FTzpFMjfDxM?modestbranding=1&rel=0&showinfo=0&controls=0"
+         frameBorder="0"
+         allowFullScreen></iframe>
+         <img src={strip} className="strip"/>
   </div>
     );
   }
 }
 
-
-
-// class Navbar extends React.Component{
-//   render() {
-//       return (        <div class="menu-wrap">
-//         <input type="checkbox" class="toggler"/>
-//         <div class="hamburger"><div></div></div>
-//         <div class="menu">
-//           <div>
-//             <div>
-//               <ul>
-//                 <li><a href="https://gmail.com">Home</a></li>
-//                 <li><a href="#">About</a></li>
-//                 <li><a href="#">Services</a></li>
-//                 <li><a href="#">Contact</a></li>
-//               </ul>
-//             </div>
-//           </div>
-//         </div>
-//       </div>);
-//   }
-// }
 
 class MainPage extends React.Component {
   constructor(props) {
@@ -89,6 +70,8 @@ class MainPage extends React.Component {
         <Artistas/>
         <Boletos/>
         <Venue/>
+       
+        <Sponsors/>
         <Footer/>
       </>
     );

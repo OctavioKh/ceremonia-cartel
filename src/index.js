@@ -59,14 +59,16 @@ ReactDOM.render(
 
 
 <video
-          src="/video/back.mp4"
           
           muted
           autoPlay={"autoplay"}
           preLoad="auto"
+          playsInline
           loop
           poster={"/74e07bea4d9cadb282d9.jpg"}
-        > something</video>
+        > 
+        <source src="/video/back.mp4" type="video/mp4"/>
+        <source src="/video/back.webm" type="video/webpm"/></video>
  
  </header>    
     </React.StrictMode> ,
