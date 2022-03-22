@@ -1,46 +1,39 @@
-import React from "react"; 
-import {  NavDropdown, Container  } from 'react-bootstrap';
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 export default class Menu extends React.Component {
+
+
+  
   render() {
-    const ig = 'https://www.instagram.com/phy__sis/';
-    const fb = 'https://www.facebook.com/physis.2020/';
-    const email = 'mailto:octaviomrq@gmail.com'
+
+    var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navibar").style.top = "0";
+  } else {
+    document.getElementById("navibar").style.top = "-200px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+    // const ig = 'https://www.instagram.com/phy__sis/';
+    // const fb = 'https://www.facebook.com/physis.2020/';
+    // const email = 'mailto:octaviomrq@gmail.com'
       return(
-        <Container style={{ margin: '0!important'}} className="body container1">
-      <Navbar className="navbar" expand="lg w-100">
-      <Navbar.Toggle data-toggle="collapse" data-target=".dual-collapse2"/>
-      <Navbar.Collapse style={{}} className=" w-100 order-1 order-md-0 dual-collapse2">
-        <Nav className=""  >
-          <Nav.Item>
-          <Nav.Link href="/videos">See</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-          <Nav.Link href="/music">Listen</Nav.Link>
-          </Nav.Item>
-        
-          </Nav >
-          </Navbar.Collapse>
-          
-
-          <Nav.Item className="logo alignCenter ml-auto"> <Nav.Link className="animacion" href="/home">PHYSIS</Nav.Link></Nav.Item>
-
-          <Navbar.Collapse className=" justify-content-center  w-100 order-4 dual-collapse2">
-          <Nav className="w-100 justify-content-end" /*justify-content-end justify-content-center  w-100 nav-justified */  >
-
-          <NavDropdown alignRight style={{backgroundColor: 'rgba(0,0,0,0.0)', color: 'black'}} class="fa fa-plus" class="dropdown-menu-right" id="collasible-nav-dropdown">
-            <NavDropdown.Item style={{backgroundColor: 'rgba(0,0,0,0.0)'}} className="text-center" href={ig} target="_blank" ><i class="fa fa-instagram"></i> Instagram</NavDropdown.Item>
-            <NavDropdown.Item style={{backgroundColor: 'rgba(0,0,0,0.0)'}} className="text-center" href={fb} target="_blank" ><i class="fa fa-facebook"></i> Facebook</NavDropdown.Item>
-            <NavDropdown.Item style={{backgroundColor: 'rgba(0,0,0,0.0)'}} className="text-center" href={email} target="_blank"><i class="fa fa-envelope"></i> Mail</NavDropdown.Item>
-          </NavDropdown>
-          
-           </Nav>
-          </Navbar.Collapse> 
-    </Navbar>
-    </Container>
+<>
+<div id="navibar">
+<a><img src="https://festivalceremonia.com/img/FC2021/crmn.png" id="logonavbar" alt="logo"/>
+</a>
+ <a id="listado" href="#cartel">Cartel</a>
+        <AnchorLink id="listado" href="#artistas">Artistas</AnchorLink>
+        <AnchorLink id="listado" href="#bloque3">Horarios</AnchorLink>
+        <AnchorLink id="listado" href="#mapa">Lugar</AnchorLink>
+        <AnchorLink id="listado" href="#boletos">Boletos</AnchorLink>
+        <AnchorLink id="listado" href="/ceremonios">Ceremonios</AnchorLink>
+</div>
+       </>
       );
     }
   }

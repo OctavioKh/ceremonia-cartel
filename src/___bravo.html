@@ -1,0 +1,3178 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>BRAVO</title>
+	<meta name="lang" content="es" />
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Festival Bravo: M&uacute;sica &#38; Outdoors.">
+	<meta name="format-detection" content="address=no,email=no,telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css?v=1643176595">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css?v=1643176595">
+
+	<script src="//code.jquery.com/jquery-latest.min.js"></script>
+
+	<script src="js/lib/greensock/TweenMax.min.js"></script>
+	<script src="js/lib/greensock/plugins/ScrollToPlugin.min.js"></script>
+	<script src="js/lib/modernizr.custom.min.js"></script>
+	<script src="js/lib/iscroll-probe.js"></script>
+	<script src="js/scrollmagic/minified/ScrollMagic.min.js"></script>
+	<script src="js/scrollmagic/minified/plugins/animation.gsap.min.js"></script>
+	<script src="js/scrollmagic/minified/plugins/debug.addIndicators.min.js"></script>
+
+	<script type="text/javascript" src="js/code.js"></script>
+
+	<meta name="keywords" content="bravo, festival" />
+	<meta name="DC.title" lang="es" content="Bravo Festival" />
+	<meta name="DC.description" lang="es" content="Festival Bravo: M&uacute;sica &#38; Outdoors." />
+	<meta name="DC.creator" content="dupla" />
+
+	<meta property="og:title" content="Bravo Festival"/>
+	<meta property="og:description" content="Festival Bravo: M&uacute;sica &#38; Outdoors."/>
+	<meta property="og:image" content="https://bravofestival.mx/img/fb.jpg"/>
+	<meta property="og:url" content="https://bravofestival.mx/" />
+	<meta property="og:type" content="website"/>
+	<meta property="og:site_name" content="Bravo Festival"/>
+	<meta property="twitter:card" content="summary" />
+	<link rel="canonical" href="https://bravofestival.mx/" />
+
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139603790-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-139603790-1');
+	</script>
+
+<style>
+@charset "UTF-8";
+
+/*
+fuentes
+*/
+
+@font-face {
+  font-family: 'VisbyCF-Bold';
+  src: url('../fonts/VisbyCF-Bold/VisbyCF-Bold.eot');
+  src: url('../fonts/VisbyCF-Bold/VisbyCF-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/VisbyCF-Bold/VisbyCF-Bold.svg#VisbyCF-Bold') format('svg'),
+       url('../fonts/VisbyCF-Bold/VisbyCF-Bold.ttf') format('truetype'),
+       url('../fonts/VisbyCF-Bold/VisbyCF-Bold.woff') format('woff'),
+       url('../fonts/VisbyCF-Bold/VisbyCF-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'VisbyCF-DemiBold';
+  src: url('../fonts/VisbyCF-DemiBold/VisbyCF-DemiBold.eot');
+  src: url('../fonts/VisbyCF-DemiBold/VisbyCF-DemiBold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/VisbyCF-DemiBold/VisbyCF-DemiBold.svg#VisbyCF-DemiBold') format('svg'),
+       url('../fonts/VisbyCF-DemiBold/VisbyCF-DemiBold.ttf') format('truetype'),
+       url('../fonts/VisbyCF-DemiBold/VisbyCF-DemiBold.woff') format('woff'),
+       url('../fonts/VisbyCF-DemiBold/VisbyCF-DemiBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'VisbyCF-ExtraBold';
+  src: url('../fonts/VisbyCF-ExtraBold/VisbyCF-ExtraBold.eot');
+  src: url('../fonts/VisbyCF-ExtraBold/VisbyCF-ExtraBold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/VisbyCF-ExtraBold/VisbyCF-ExtraBold.svg#VisbyCF-ExtraBold') format('svg'),
+       url('../fonts/VisbyCF-ExtraBold/VisbyCF-ExtraBold.ttf') format('truetype'),
+       url('../fonts/VisbyCF-ExtraBold/VisbyCF-ExtraBold.woff') format('woff'),
+       url('../fonts/VisbyCF-ExtraBold/VisbyCF-ExtraBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'VisbyCF-Heavy';
+  src: url('../fonts/VisbyCF-Heavy/VisbyCF-Heavy.eot');
+  src: url('../fonts/VisbyCF-Heavy/VisbyCF-Heavy.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/VisbyCF-Heavy/VisbyCF-Heavy.svg#VisbyCF-Heavy') format('svg'),
+       url('../fonts/VisbyCF-Heavy/VisbyCF-Heavy.ttf') format('truetype'),
+       url('../fonts/VisbyCF-Heavy/VisbyCF-Heavy.woff') format('woff'),
+       url('../fonts/VisbyCF-Heavy/VisbyCF-Heavy.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'VisbyCF-Regular';
+  src: url('../fonts/VisbyCF-Regular/VisbyCF-Regular.eot');
+  src: url('../fonts/VisbyCF-Regular/VisbyCF-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/VisbyCF-Regular/VisbyCF-Regular.svg#VisbyCF-Regular') format('svg'),
+       url('../fonts/VisbyCF-Regular/VisbyCF-Regular.ttf') format('truetype'),
+       url('../fonts/VisbyCF-Regular/VisbyCF-Regular.woff') format('woff'),
+       url('../fonts/VisbyCF-Regular/VisbyCF-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Miso-Bold';
+  src: url('../fonts/Miso-Bold/Miso-Bold.eot');
+  src: url('../fonts/Miso-Bold/Miso-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Miso-Bold/Miso-Bold.svg#Miso-Bold') format('svg'),
+       url('../fonts/Miso-Bold/Miso-Bold.ttf') format('truetype'),
+       url('../fonts/Miso-Bold/Miso-Bold.woff') format('woff'),
+       url('../fonts/Miso-Bold/Miso-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AkzidenzGroteskStd-BoldCn';
+  src: url('../fonts/AkzidenzGroteskStd-BoldCn/AkzidenzGroteskStd-BoldCn.eot');
+  src: url('../fonts/AkzidenzGroteskStd-BoldCn/AkzidenzGroteskStd-BoldCn.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/AkzidenzGroteskStd-BoldCn/AkzidenzGroteskStd-BoldCn.svg#Miso-Bold') format('svg'),
+       url('../fonts/AkzidenzGroteskStd-BoldCn/AkzidenzGroteskStd-BoldCn.ttf') format('truetype'),
+       url('../fonts/AkzidenzGroteskStd-BoldCn/AkzidenzGroteskStd-BoldCn.woff') format('woff'),
+       url('../fonts/AkzidenzGroteskStd-BoldCn/AkzidenzGroteskStd-BoldCn.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AkzidenzGroteskStd-Md';
+  src: url('../fonts/AkzidenzGroteskStd-Md/AkzidenzGroteskStd-Md.eot');
+  src: url('../fonts/AkzidenzGroteskStd-Md/AkzidenzGroteskStd-Md.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/AkzidenzGroteskStd-Md/AkzidenzGroteskStd-Md.svg#Miso-Bold') format('svg'),
+       url('../fonts/AkzidenzGroteskStd-Md/AkzidenzGroteskStd-Md.ttf') format('truetype'),
+       url('../fonts/AkzidenzGroteskStd-Md/AkzidenzGroteskStd-Md.woff') format('woff'),
+       url('../fonts/AkzidenzGroteskStd-Md/AkzidenzGroteskStd-Md.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AkzidenzGroteskStd-Regular';
+  src: url('../fonts/AkzidenzGroteskStd-Regular/AkzidenzGroteskStd-Regular.eot');
+  src: url('../fonts/AkzidenzGroteskStd-Regular/AkzidenzGroteskStd-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/AkzidenzGroteskStd-Regular/AkzidenzGroteskStd-Regular.svg#Miso-Bold') format('svg'),
+       url('../fonts/AkzidenzGroteskStd-Regular/AkzidenzGroteskStd-Regular.ttf') format('truetype'),
+       url('../fonts/AkzidenzGroteskStd-Regular/AkzidenzGroteskStd-Regular.woff') format('woff'),
+       url('../fonts/AkzidenzGroteskStd-Regular/AkzidenzGroteskStd-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AkzidenzGroteskStd-Super';
+  src: url('../fonts/AkzidenzGroteskStd-Super/AkzidenzGroteskStd-Super.eot');
+  src: url('../fonts/AkzidenzGroteskStd-Super/AkzidenzGroteskStd-Super.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/AkzidenzGroteskStd-Super/AkzidenzGroteskStd-Super.svg#Miso-Bold') format('svg'),
+       url('../fonts/AkzidenzGroteskStd-Super/AkzidenzGroteskStd-Super.ttf') format('truetype'),
+       url('../fonts/AkzidenzGroteskStd-Super/AkzidenzGroteskStd-Super.woff') format('woff'),
+       url('../fonts/AkzidenzGroteskStd-Super/AkzidenzGroteskStd-Super.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+html, body{
+    width: 100%;
+    min-height: 100%;
+    margin:0;
+    padding:0;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'AkzidenzGroteskStd-Regular', 'Lato', sans-serif;
+    -webkit-overflow-scrolling: touch;
+    color: #020a5a;
+}
+
+body{
+    background-image: url(../img/fondo_d.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: #020a5a;
+}
+
+.clear{
+    clear: both;
+}
+
+
+body.item_act{
+    overflow: hidden;
+}
+/*header*/
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #020a5a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.header_int{
+    width: 1315px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+header .logo{}
+header .logo img{
+    width: 166px;
+    height: auto;
+    display: block;
+}
+header .lado_der{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header .lado_der .boletos{
+    height: 41px;
+    width: auto;
+    background-color: #fde306;
+    line-height: 41px;
+    font-size: 26px;
+    padding: 1px 15px 0px;
+    display: block;
+    border-radius: 11px;
+    text-transform: uppercase;
+    font-family: 'AkzidenzGroteskStd-BoldCn';
+}
+header .lado_der .boletos p{
+    margin: 0px;
+    letter-spacing: 0.03em;
+}
+.btn{
+    margin-left: 50px;
+    display: block;
+    cursor: pointer;
+}
+.btn .linea{
+    width: 30px;
+    height: 5px;
+    background-color: #262626;
+    border-radius: 7px;
+    margin: 5px 0px;
+}
+.btn .linea.linea_01{}
+.btn .linea.linea_02{}
+.btn .linea.linea_03{}
+
+.menu_desplegables{
+    display: none;
+}
+.menu_desplegable_int{}
+.menu_item{}
+
+
+
+
+
+/*contenido*/
+.wrapper{
+    padding-top: 119px;
+}
+.contenido{
+    position: relative;
+}
+.wrapper_int{}
+/*video*/
+
+.contenido.contenido_video{
+    min-height: -o-calc(100vh - 119px);
+    min-height: -ms-calc(100vh - 119px);
+    min-height: -moz-calc(100vh - 119px);
+    min-height: -webkit-calc(100vh - 119px);
+    min-height: calc(100vh - 119px);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+}
+.video_int{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.video_int iframe{
+    width: 110vw;
+    height: 66.25vw;
+    min-height: 110vh;
+    min-width: 187.77vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: -webkit-translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.cartel{
+    position: relative;
+    width: 520px;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'AkzidenzGroteskStd-BoldCn';
+    color: #f8ecd7;
+    margin-bottom: 100px;
+}
+.cartel_img{
+    width: 100%;
+}
+.cartel_img img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    max-height: -o-calc(100vh - 180px);
+    max-height: -ms-calc(100vh - 180px);
+    max-height: -moz-calc(100vh - 180px);
+    max-height: -webkit-calc(100vh - 180px);
+    max-height: calc(100vh - 180px);
+    margin:auto;
+}
+
+
+/*artistas*/
+.contenido.contenido_artistas{
+    width: 100%;
+}
+.banner_artista{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.banner_artista .titulo_artista_int h2{
+  font-size: 52px;
+}
+.banner_artista .columna{
+    width: -o-calc(100%/3);
+    width: -ms-calc(100%/3);
+    width: -moz-calc(100%/3);
+    width: -webkit-calc(100%/3);
+    width: calc(100%/3);
+}
+.banner_artista .columna .cubo_img{
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mosaico_artistas{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.item_artista{
+    width: 100%;
+    position: relative;
+    background-color: #02095a;
+    display: block;
+    cursor: pointer;
+    color: #fde305;
+}
+.item_artista:nth-child(8n+2) {
+  background-color: #fde305;
+  color: #02095a;
+}
+.item_artista:nth-child(8n+4) {
+  background-color: #fde305;
+      color: #02095a;
+}
+.item_artista:nth-child(8n+5) {
+  background-color: #fde305;
+      color: #02095a;
+}
+.item_artista:nth-child(8n+7) {
+  background-color: #fde305;
+      color: #02095a;
+}
+
+.item_artista:nth-child(8n+2) .titulo_artista{
+  background-color: #fde305;
+}
+.item_artista:nth-child(8n+4) .titulo_artista{
+  background-color: #fde305;
+}
+.item_artista:nth-child(8n+5) .titulo_artista{
+  background-color: #fde305;
+}
+.item_artista:nth-child(8n+7) .titulo_artista{
+  background-color: #fde305;
+}
+
+.imagen_artista{
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.titulo_artista{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+    transition:300ms;
+    transition-timing-function: ease;
+        background-color: #02095a;
+}
+
+/*contenido break*/
+.contenido.contenido_break{
+    width: 100%;
+    overflow: hidden;
+}
+.contenido.contenido_break .contenido_int{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.contenido.contenido_break .contenido_int .imagenes{
+    width: -o-calc(100% - 574px);
+    width: -ms-calc(100% - 574px);
+    width: -moz-calc(100% - 574px);
+    width: -webkit-calc(100% - 574px);
+    width: calc(100% - 574px);
+}
+.contenido.contenido_break .contenido_int .imagenes .mosaico{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+}
+.contenido.contenido_break .contenido_int .imagenes .mosaico img{
+    margin-bottom: 30px;
+}
+.contenido.contenido_break .contenido_int .imagenes .mosaico img.mini_item{
+    max-width: 100px;
+}
+.contenido.contenido_break .contenido_int .imagenes .mosaico img.mini_item_doble{width: auto;max-height: 100px;}
+.contenido.contenido_break .contenido_int .imagenes .mosaico img.nor_item{
+    max-width: -o-calc(100% - 140px);
+    max-width: -ms-calc(100% - 140px);
+    max-width: -moz-calc(100% - 140px);
+    max-width: -webkit-calc(100% - 140px);
+    max-width: 100%;
+}
+.contenido.contenido_break .contenido_int .texto{
+    width: 480px;
+    font-size: 38px;
+    line-height: 44px;
+    text-align: right;
+    position: relative;
+    margin-top: 0vh;
+    color: #fff;
+}
+.contenido.contenido_break .contenido_int .texto p{
+    margin-top: 0px;
+}
+.contenido.contenido_break .contenido_int .texto a{
+  color:#fff;
+  text-decoration:underline;
+}
+
+/*break_ext*/
+.contenido.contenido_boletos{
+    width: 100%;
+    min-height: -o-calc(100vh - 100px);
+    min-height: -ms-calc(100vh - 100px);
+    min-height: -moz-calc(100vh - 100px);
+    min-height: -webkit-calc(100vh - 100px);
+    min-height: calc(100vh - 100px);
+    padding: 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.contenido.contenido_boletos .contenido_int{
+    width: 1030px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+.contenido.contenido_boletos .columna{
+    width: 414px;
+}
+.boleto_amarillo{}
+.boleto_negro{}
+.boleto_int{
+    padding: 50px 50px 34px;
+}
+.boleto_amarillo .boleto_int{
+  background-color: #fde305;
+}
+.boleto_negro .boleto_int{
+  background-color: #020a5a;
+  color: #fff;
+}
+.boleto_superior{}
+.boleto_superior h2{
+    font-size: 65px;
+    text-align: center;
+    margin: 0px;
+    font-family: 'AkzidenzGroteskStd-BoldCn';
+    text-transform: uppercase;
+}
+.boleto_negro .boleto_superior h2{
+}
+.boleto_negro .boleto_superior h2 img{
+    filter: brightness(100);
+    max-width: 233px;
+    height: auto;
+}
+.precio{
+    padding: 4px 0px;
+    text-align: center;
+    border-top: 4px solid #02095a;
+    border-bottom: 4px solid #020a5a;
+    font-size: 110px;
+    margin: 20px 0px 20px;
+    font-family: 'AkzidenzGroteskStd-BoldCn';
+}
+.boleto_negro .precio{
+  border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+.incluye{
+    font-family: 'AkzidenzGroteskStd-BoldCn';
+    font-size: 56px;
+    margin: 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.incluye span{}
+.listado{
+    min-height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.listado ul{
+    padding: 0px;
+    list-style: none;
+}
+.listado li{
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+.boleto_negro .listado{}
+.boleto_negro .listado ul{}
+.boleto_negro .listado li{
+    font-size: 18px;
+}
+.boleto_inferior{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 42px;
+    display: block;
+}
+.boton{
+    cursor: pointer;
+    display: block;
+}
+.boton p{
+    margin: 0px;
+    font-family: 'AkzidenzGroteskStd-BoldCn';
+    color: #f2f2f2;
+    background-color: #020a5a;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 3px 15px;
+    border-radius: 8px;
+    font-size: 54px;
+    margin: auto;
+}
+.boleto_negro .boton p{
+    background-color: #fde305;
+    color: #02095a;
+}
+
+
+.etiqueta{
+    width: 100%;
+    text-align: center;
+}
+.etiqueta p{
+    font-size: 40px;
+}
+.etiqueta p a{}
+.etiqueta p a img{
+    height: 28px;
+    width: auto;
+}
+
+/*sponsors*/
+.contenido.contenido_sponsors{}
+.conenido_centrado_sponsors{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1225px;
+    margin: auto;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #fff;
+    padding: 60px 40px;
+}
+.area_sponsor{
+    width: auto;
+    margin: 0px 2px 15px;
+}
+.area_sponsor .titulo{
+    width: 100%;
+    border-top: 1.5px solid #777777;
+    padding-top: 8px;
+}
+.area_sponsor .titulo h4{
+    color: #c2e76b;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: normal;
+    margin: -5px 0px 0px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    font-family: 'VisbyCF-Regular';
+}
+.area_sponsor .sponsors{justify-content: center;align-items: center;display: flex;}
+.area_sponsor .sponsor_item{
+    display: inline-flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+}
+.contenido_footer .area_sponsor .sponsor_item img{
+    max-width: 136px;
+    max-height: 61px;
+    width: auto;
+    height: auto;
+    display: block;
+    min-height: 51px;
+    min-width: 105px;
+    margin: 0px 10px  10px 0px;
+}
+.area_sponsor .sponsor_item.uber img{
+    min-width: 65px;
+}
+.area_sponsor .sponsor_item.ubereats img{
+    min-width: 55px;
+}
+.area_sponsor .sponsor_item.ecolive img{
+    min-width: 130px;
+}
+.area_sponsor .sponsor_item.ocesa img{
+    min-width: 75px;
+}
+
+
+/*footer*/
+.footer_espacio{}
+footer{
+    width: 100%;
+    height: 400px;
+    height: 200px;
+    background-color: #262626;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_int{
+    width: 1315px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 67px;
+    justify-content: center;
+}
+.footer_int .columna{}
+.footer_int .columna p{
+    margin: 0px 0px 20px;
+    font-size: 29px;
+    font-family: 'VisbyCF-Bold';
+}
+.footer_int .columna form{
+    display: flex;
+}
+.footer_int .columna input{
+    width: 370px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0px 10px;
+    background-color: #f2f2f2;
+    border: none;
+    display: block;
+    font-family: 'VisbyCF-Bold';
+    font-size: 22px;
+    color: #000;
+}
+.footer_int .columna input.btn_input{
+    width: auto;
+    text-transform: uppercase;
+}
+.redes_footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.redes_footer .red{
+    font-size: 22px;
+    font-family: 'VisbyCF-Bold';
+    margin: 0px 22px;
+}
+.redes_footer .red span{
+    background-color: #f2f2f2;
+    width: 46px;
+    height: 46px;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 46px;
+}
+.footer_bottom{
+    width: 100%;
+}
+.f_b_int{
+    width: -o-calc(100% - 30px);
+    width: -ms-calc(100% - 30px);
+    width: -moz-calc(100% - 30px);
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px);
+    margin: 10px auto;
+    text-align: right;
+}
+.f_b_int .dupla{
+  color:#777;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+}
+
+
+.pleca_gris{
+    width: 100%;
+    height: 100px;
+    background-color: #777;
+}
+.pleca_gris_int{
+    width: 1315px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.pleca_gris_int a, .pleca_gris_int span{
+    display: contents;
+    height: 100%;
+    width: auto;
+}
+.pleca_gris_int a img, .pleca_gris_int span img {
+    max-height: 72px;
+    width: auto;
+    max-width: 600px;
+    height: auto;
+}
+.pleca_gris_int a.logo_ciudad,
+.pleca_gris_int span.logo_ciudad{}
+.pleca_gris_int a.logo_ciudad img, .pleca_gris_int span.logo_ciudad img{
+    max-height: 31px;
+}
+
+.area_sponsor .sponsor_item.sponsor_item_ibero img{
+    min-width: 50px;
+}
+.mini_item{
+    max-width: 100px;
+}
+
+/*menu*/
+.menu_animado{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
+    left: 0;
+    background-color: #fde305;
+    z-index: 10;
+    width: 100%;
+    overflow: hidden;
+    padding: 2px 0px 1px;
+}
+.menu_animado_int{
+        position: relative;
+        height: 100%;
+        width: auto;
+        white-space: nowrap;
+        display: -webkit-inline-box;
+}
+
+.menu_animado_scroll{
+    position: relative;
+    left: 0;
+    height: 100%;
+    white-space: nowrap;
+    -webkit-animation: carrusel linear 30s infinite ;
+    animation: carrusel linear 30s infinite ;
+}
+@-webkit-keyframes carrusel {
+  from {
+    left: 0px; }
+  to {
+    left: -o-calc(-100% + 100vw);
+    left: -ms-calc(-100% + 100vw);
+    left: -moz-calc(-100% + 100vw);
+    left: -webkit-calc(-100% + 100vw);
+    left: calc(-100% + 100vw); } }
+
+@keyframes carrusel {
+  from {
+    left: 0px; }
+  to {
+    left: -o-calc(-100% + 100vw);
+    left: -ms-calc(-100% + 100vw);
+    left: -moz-calc(-100% + 100vw);
+    left: -webkit-calc(-100% + 100vw);
+    left: calc(-100% + 100vw); } }
+.m_a_item{
+    display: inline-block;
+    margin: 0px 7px;
+    font-size: 36px;
+    position: relative;
+}
+.m_a_item p{
+    margin: 0px;
+    line-height: 42px;
+}
+.m_a_item p b{
+    font-family: 'VisbyCF-DemiBold';
+    font-weight: normal;
+}
+
+.act_submenu .menu_animado{
+}
+
+
+
+.mini_item_responsive{
+    display: none;
+}
+
+
+
+/*over */
+.over_full{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: rgba(242, 242, 242, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: auto;
+    display: none;
+}
+.over_artista{
+    width: 640px;
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+}
+.over_artista .titulo{
+        background-color: #fde306;
+    padding: 30px 40px;
+}
+.over_artista .titulo h2{
+    margin: 0px;
+    font-family: 'AkzidenzGroteskStd-Super';
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.over_artista .titulo h3{
+    text-transform: uppercase;
+    font-size: 27px;
+    margin: 0px;
+}
+.over_artista .texto{
+    width: -o-calc(100% - 80px);
+    width: -ms-calc(100% - 80px);
+    width: -moz-calc(100% - 80px);
+    width: -webkit-calc(100% - 80px);
+    width: calc(100% - 80px);
+    margin: auto;
+    line-height: 150%;
+
+    display: none;
+}
+.over_artista .texto h1{
+    font-family: 'VisbyCF-Bold';
+    font-weight: normal;
+}
+.over_artista .texto h2{
+    font-family: 'VisbyCF-Bold';
+    font-weight: normal;
+}
+.over_artista .texto h3{
+    font-family: 'VisbyCF-Bold';
+    font-weight: normal;
+}
+.over_artista .texto h4{
+    font-family: 'VisbyCF-Bold';
+    font-weight: normal;
+}
+.over_artista .texto h5{
+    font-family: 'VisbyCF-Bold';
+    font-weight: normal;
+}
+.over_artista .texto h6{
+    font-family: 'VisbyCF-Bold';
+    font-weight: normal;
+}
+.over_artista .texto p{}
+.over_video{
+    background-color: #ffd600;
+    width: 100%;
+}
+.over_video_int{
+    width: 100%;
+    padding-bottom: 56.68%;
+    height: 0px;
+    position: relative;
+}
+.over_video_int iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: none;
+}
+.footer_artista{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_artista_int{
+    width: -o-calc(100% - 80px);
+    width: -ms-calc(100% - 80px);
+    width: -moz-calc(100% - 80px);
+    width: -webkit-calc(100% - 80px);
+    width: calc(100% - 80px);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 4px solid #fde306;
+    margin-top: 22px;
+    padding-top: 17px;
+    padding-bottom: 36px;
+    font-family: 'AkzidenzGroteskStd-BoldCn';
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.footer_artista .red_artista{}
+
+
+.over_full.visible{
+    display: flex;
+}
+
+.over_full_cerrar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.icono_cerrar{
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    right: 10px;
+    position: fixed;
+    background-image: url(../img/cerrar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.contenido_back{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #fff;
+    margin: 120px auto 0px;
+    width: 1195px;
+    padding: 60px;
+}
+
+
+.precio_doble{
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    margin: 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pd_m{
+    width: 50%;
+    text-align: center;
+    padding: 10px 0px 15px;
+    margin: 8px 0px;
+}
+.pd_m h2{
+}
+.pd_m p{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.pd_m:first-child{
+  border-right:3px solid #fff;
+}
+
+.area{
+    width: 100%;
+    min-height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.area_int{
+    width: -o-calc(100% - 80px);
+    width: -ms-calc(100% - 80px);
+    width: -moz-calc(100% - 80px);
+    width: -webkit-calc(100% - 80px);
+    width: calc(100% - 80px);
+    text-align: center;
+    border-bottom: 3px solid #fff;
+    padding: 20px 0px;
+    font-size: 19px;
+    line-height: 150%;
+}
+.area_int p{
+    margin: 0px;
+}
+
+.area_int:last-child{
+  border-bottom:none;
+}
+
+.info_boleto{
+    color: #fff;
+    font-size: 22px;
+    margin: 20px 0px 0px;
+    font-family: 'VisbyCF-Regular';
+}
+.info_boleto span{
+    vertical-align: middle;
+}
+.info_boleto span img{
+    max-width: 250px;
+    margin: 0px 0px 0px 10px;
+    max-height: 40px;
+    width: auto;
+    height: auto;
+}
+.info_boleto a{
+    vertical-align: middle;
+}
+.info_boleto a img{
+    max-width: 250px;
+    margin: 0px 0px 0px 10px;
+    max-height: 40px;
+    width: auto;
+    height: auto;
+}
+
+.logo_cartel{}
+.logo_cartel img{
+    max-width: 200px;
+    margin: 0px auto 50px;
+    display: block;
+}
+.area_cartel{
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 4px solid #f8ecd7;
+}
+.footer_cartel_uno{
+    display: flex;
+    flex-wrap: wrap;
+    width: -o-calc(100% - 20px);
+    width: -ms-calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
+    width: -webkit-calc(100% - 20px);
+    width: calc(100% - 20px);
+    margin: 10px 10px;
+    justify-content: space-between;
+}
+.footer_cartel_uno h2{
+    text-transform: uppercase;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0.03em;
+}
+.footer_cartel_uno p{
+    margin: 0px;
+}
+.footer_cartel_uno a{}
+.footer_cartel_uno img{
+    max-width: 140px;
+    width: auto;
+    height: auto;
+    padding: 0px 10px;
+    vertical-align: middle;
+}
+.footer_cartel_dos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    width: -o-calc(100% - 20px);
+    width: -ms-calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
+    width: -webkit-calc(100% - 20px);
+    width: calc(100% - 20px);
+    margin: 10px;
+}
+.area_sponsor .sponsors img{
+    max-width: 65px;
+    width: auto;
+    height: auto;
+}
+.area_sponsor:first-child{
+    width: 100%;
+}
+.area_sponsor:first-child .sponsors{
+    justify-content: space-between;
+}
+
+.area_cartel_int.area_cartel_bravo{
+    padding: 0px 15px;
+    border-bottom: 4px solid #f8ecd7;
+    padding-bottom: 15px;
+}
+.c_bravo{
+        max-width: 210px;
+    margin: -11px auto 20px;
+    display: block;
+}
+.area_cartel_texto{}
+.area_cartel_texto p{
+    text-align: center;
+    margin: 5px 0px;
+}
+.area_cartel_texto span{
+    font-family: 'AkzidenzGroteskStd-Md';
+    font-weight: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+.area_cartel_texto span:first-child::after{
+  content:'';
+  width: 8px;
+  height: 8px;
+  border-radius:50%;
+  background-color: #c2e76b;
+  display: inline-block;
+  margin: 0px 10px;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+.area_cartel_texto span.super{
+    font-family: 'AkzidenzGroteskStd-Super';
+}
+.area_cartel_texto span.centrar{
+    font-size: 18px;
+    font-family: 'AkzidenzGroteskStd-Regular';
+}
+.area_cartel_texto span.centrar:first-child::after{
+    display: none;
+}
+.area_cartel_texto span.solo:first-child::after{
+    display: none;
+}
+
+
+
+.contenido_footer{}
+.contenido_footer .area_sponsor{
+    margin: 0px 10px 15px;
+}
+.contenido_footer .area_sponsor .titulo h4{
+    font-size: 14px;
+    margin: 5px 0px 10px;
+    color: #fde305;
+}
+
+.area_cartel_int.area_cartel_int_footer{
+    border-top: 4px solid #f8ecd7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.area_cartel_int.area_cartel_int_footer > div{
+    padding: 6px 10px;
+}
+.area_cartel_int.area_cartel_int_footer > div p{
+        text-transform: uppercase;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0.03em;
+}
+.area_cartel_int.area_cartel_int_footer .fecha{
+    border-right: 4px solid #f8ecd7;
+}
+.area_cartel_int.area_cartel_int_footer .direccion{}
+.titulo_artista_int{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo_artista_int h2{
+    text-align: center;
+    margin: 0px 10px;
+    font-size: 32px;
+    font-weight: normal;
+    font-family: 'AkzidenzGroteskStd-Md';
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+/*contenido imagenes*/
+.contenido.contenido_imagen{}
+.contenido.contenido_imagen .contenido_back{}
+.contenido.contenido_imagen .contenido_int{}
+.contenido.contenido_imagen .titulo_etiqueta{
+    width: -ms-fit-content;
+    width: fit-content;
+    margin: -100px auto 80px;
+    background-color: #02095a;
+    border: 2px solid #fff;
+    padding: 0px 20px;
+}
+.contenido.contenido_imagen .titulo_etiqueta h2{
+    font-size: 65px;
+    text-align: center;
+    margin: 0px;
+    font-family: 'AkzidenzGroteskStd-BoldCn';
+    text-transform: uppercase;
+    color: #fff;
+}
+.contenido.contenido_imagen img{
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  max-height: -o-calc(100vh - 130px);
+  max-height: -ms-calc(100vh - 130px);
+  max-height: -moz-calc(100vh - 130px);
+  max-height: -webkit-calc(100vh - 130px);
+  max-height: calc(100vh - 130px);
+  width: auto;
+  height: auto;
+}
+.contenido.contenido_imagen img.img01{}
+.contenido.contenido_imagen img.img02{
+  display: none;
+}
+.cubierta{
+  position: relative;
+  width: fit-content;
+  width: -ms-fit-content;
+  margin: 0px auto 20px;
+}
+.btn_abrir{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  background-image: url(../img/abrir.png);
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  background-size: 30px;
+  background-position: center;
+}
+
+.btn_abrir:hover{
+  opacity: 1;
+}
+
+
+
+.over_image{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #02095a;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    overflow: auto;
+    display: none;
+}
+.btn_cerrar{
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #02085a;
+    cursor: pointer;
+}
+.btn_cerrar_int{
+  width: 40px;
+  height: 40px;
+  right: 10px;
+  position: absolute;
+  top: 10px;
+  background-image: url(../img/cerrar.svg);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.over_image_int{
+    padding-bottom: 40px;
+}
+.over_image_int img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.hidden{
+  overflow: hidden;
+}
+.over_image_int .img02{
+  display: none;
+}
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 1415px){
+	.header_int, 
+	.contenido.contenido_break .contenido_int, 
+	.footer_int,
+	.pleca_gris_int{
+		width: -o-calc(100% - 100px);
+		width: -ms-calc(100% - 100px);
+		width: -moz-calc(100% - 100px);
+		width: -webkit-calc(100% - 100px);
+		width: calc(100% - 100px);
+	}
+	.area_sponsor .sponsor_item img{
+		min-height: 40px;
+		min-width: 80px;
+	}
+	.area_sponsor .sponsor_item.uber img{
+	    min-width: 45px;
+	}
+	.area_sponsor .sponsor_item.ubereats img{
+	    min-width: 35px;
+	}
+	.area_sponsor .sponsor_item.ecolive img{
+	    min-width: 105px;
+	}
+	.area_sponsor .sponsor_item.ocesa img{
+	    min-width: 55px;
+	}
+	.contenido_back{
+	    width: -o-calc(100% - 220px);
+	    width: -ms-calc(100% - 220px);
+	    width: -moz-calc(100% - 220px);
+	    width: -webkit-calc(100% - 220px);
+	    width: calc(100% - 220px);
+	}
+	.conenido_centrado_sponsors{
+	    width: -o-calc(100% - 180px);
+	    width: -ms-calc(100% - 180px);
+	    width: -moz-calc(100% - 180px);
+	    width: -webkit-calc(100% - 180px);
+	    width: calc(100% - 180px);
+	}
+
+
+}
+
+@media screen and (max-width: 1260px){
+	.header_int, 
+	.contenido.contenido_break .contenido_int, 
+	.footer_int,
+	.pleca_gris_int{
+		width: -o-calc(100% - 40px);
+		width: -ms-calc(100% - 40px);
+		width: -moz-calc(100% - 40px);
+		width: -webkit-calc(100% - 40px);
+		width: calc(100% - 40px);
+	}
+	.contenido.contenido_boletos .contenido_int{
+		width: 100%;
+	}
+	
+}
+
+@media screen and (max-width: 1220px){
+	.contenido.contenido_break .contenido_int .texto{
+	    font-size: 28px;
+    	line-height: 34px;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	.area_sponsor .sponsors{
+		flex-wrap: wrap;
+	}
+	.area_sponsor:first-child .sponsors{
+		justify-content: center;
+	}
+	.area_sponsor .sponsor_item{
+		margin-bottom: 20px;
+	}
+}
+
+
+@media screen and (max-width: 1180px){
+	.contenido.contenido_break .contenido_int .texto{
+		top: initial!important;
+	}
+	.contenido.contenido_break .contenido_int .imagenes .mosaico{
+		top: initial!important;
+	}
+}
+
+@media screen and (max-width: 1140px){
+	.area_cartel_texto p{
+		    margin: 3px 0px;
+	}
+	.area_cartel_texto span{
+		    font-size: 16px;
+	}
+	.area_cartel_texto span:first-child::after{
+		    width: 5px;
+    height: 5px;
+	}
+	.footer_cartel_uno h2{
+		font-size: 14px;
+	}
+	.area_cartel_int.area_cartel_int_footer > div p{
+		font-size: 14px;
+	}
+	.m_a_item{
+		font-size: 18px;
+	}
+	.m_a_item p {
+	    line-height: 28px;
+	}
+	header .lado_der .boletos{
+		line-height: 30px;
+		font-size: 18px;
+	}
+	header .lado_der .boletos{
+		height: 28px;
+		border-radius: 6px;
+	}
+	.contenido.contenido_break .contenido_int .imagenes{
+		    width: 70%;
+    margin: auto;
+	}
+	.contenido.contenido_break .contenido_int .texto{
+		    text-align: center;
+    margin: auto;
+	}
+}
+
+@media screen and (max-width: 1120px){
+	.banner_artista .titulo_artista_int h2 {
+	    font-size: 32px;
+	}
+	.titulo_artista_int h2{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 1060px){
+	.contenido.contenido_boletos .columna {
+	    width: -o-calc(50% - 20px);
+	    width: -ms-calc(50% - 20px);
+	    width: -moz-calc(50% - 20px);
+	    width: -webkit-calc(50% - 20px);
+	    width: calc(50% - 20px);
+	}
+	.boleto_int {
+	    padding: 30px 30px 34px;
+	}
+	.redes_footer .red{
+		margin-left: 35px;
+	}
+	
+	.contenido.contenido_break .contenido_int .imagenes{
+		width: -o-calc(100% - 334px);
+	    width: -ms-calc(100% - 334px);
+	    width: -moz-calc(100% - 334px);
+	    width: -webkit-calc(100% - 334px);
+	    width: calc(100% - 334px);
+	}
+	.footer_int .columna input{
+		width: 320px;
+	}
+}
+
+
+@media screen and (min-width: 1025px){
+	.boton:hover p{
+	    color: #000;
+	    background-color: #fff;
+	}
+	.boleto_negro .boton:hover p{
+	    background-color: #ffd600;
+	}
+	.item_artista:hover .titulo_artista{
+	  opacity:1;
+	}
+}
+@media screen and (max-width: 1024px){
+	.titulo_artista{
+		height: 0;
+		padding-bottom: 100%;
+		position: relative;
+		opacity: 1;
+	}
+	.item_artista.item_artista_especial {
+	    background-color: #ffd600;
+	}
+	.item_artista.item_artista_especial .imagen_artista{
+		display: none;
+	}
+	.mini_item_responsive{
+		display: block;
+    max-width: 80%;
+    margin: auto;
+	}
+	.item_artista_int{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.mini_item{
+		display: none;
+	}
+	.contenido.contenido_break .contenido_int{
+    padding: 50px 0px;
+	}
+
+	.video{
+		display: none;
+	}
+	.fondo_responsive{
+		display: block;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	.boleto_superior h2{
+	    font-size: 44px;
+	}
+	.precio{
+		font-size: 80px;
+	}
+	.incluye{
+		font-size: 38px;
+	}
+	.contenido.contenido_boletos .columna{
+		width: 420px;
+		margin: 0px auto 40px;
+	}
+	.listado ul{
+	    margin: 10px auto 20px;
+	}
+	.listado{
+		min-height: initial;
+		margin: auto;
+	}
+	.info_boleto{
+		font-size: 18px;
+		    margin: 10px 0px 0px;
+	}
+	.info_boleto a img{
+		max-width: 190px;
+		max-height: 26px;
+	}
+	.info_boleto{
+		text-align: center;
+	}
+	.contenido.contenido_imagen .titulo_etiqueta h2{
+		font-size: 44px;
+	}
+	.contenido.contenido_imagen .titulo_etiqueta{
+	    margin: -88px auto 20px;
+	}
+	.btn_abrir{
+	    opacity: 1;
+	    right: 0;
+	    bottom: -40px;
+	}
+
+
+}
+
+@media screen and (max-width: 960px){
+	.area_sponsor .titulo{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 960px){
+	.area_sponsor .sponsor_item img {
+	    min-height: 20px;
+	    min-width: 60px;
+	    max-height: 48px;
+	}
+	.area_sponsor .sponsor_item.sponsor_item_ibero img {
+	    min-width: 30px;
+	}
+	.area_sponsor .sponsor_item.uber img{
+	    min-width: 45px;
+	}
+	.area_sponsor .sponsor_item.ubereats img{
+	    min-width: 40px;
+	}
+	.area_sponsor .sponsor_item.ecolive img{
+	    min-width: 95px;
+	}
+	.area_sponsor .sponsor_item.ocesa img{
+	    min-width: 55px;
+	}
+
+	.footer_int .columna {
+	    margin: 0px auto 40px;
+	}
+	.redes_footer .red {
+    	margin-left: 35px;
+	    margin: 0px 15px;
+	}
+	.pleca_gris_int a img, .pleca_gris_int span img{
+    	max-height: 52px;
+	}
+	.pleca_gris_int a.logo_ciudad img, .pleca_gris_int span.logo_ciudad img{
+	    max-height: 21px;
+	}
+	.footer_int .columna p{
+		font-size: 22px;
+	}
+	.footer_int .columna input{
+		font-size: 19px;
+	}
+	.contenido.contenido_break .contenido_int .imagenes{
+		width: 100%;
+
+	}
+	.contenido.contenido_break .contenido_int .texto{
+		width: 100%;
+	}
+	.contenido.contenido_boletos .columna{
+		width: 414px;
+		margin: 0px auto 80px;
+	}
+}
+
+@media screen and (max-width: 940px){
+	.banner_artista .titulo_artista_int h2 {
+	    font-size: 24px;
+	}
+	.titulo_artista_int h2 {
+	    font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.contenido.contenido_imagen img.img01{
+		display: none;
+	}
+	.contenido.contenido_imagen img.img02{
+		display: block;
+	}
+	.over_image_int .img01{
+	  display: none;
+	}
+	.over_image_int .img02{
+	  display: block;
+	}
+}
+
+@media screen and (max-width: 760px){
+	.area_sponsor .sponsor_item img {
+	    min-height: 16px;
+	    min-width: 50px;
+	}
+	.area_sponsor .sponsor_item.uber img{
+	    min-width: 35px;
+	}
+	.area_sponsor .sponsor_item.ubereats img{
+	    min-width: 35px;
+	}
+	.area_sponsor .sponsor_item.ecolive img{
+	    min-width: 70px;
+	}
+	.area_sponsor .sponsor_item.ocesa img{
+	    min-width: 45px;
+	}
+}
+
+@media screen and (max-width: 730px){
+	.over_artista{
+	    width: -o-calc(100% - 80px);
+	    width: -ms-calc(100% - 80px);
+	    width: -moz-calc(100% - 80px);
+	    width: -webkit-calc(100% - 80px);
+	    width: calc(100% - 80px);
+	}
+}
+
+
+@media screen and (max-width: 720px){
+
+	
+	.btn{
+		margin-left: 20px;
+	}
+	header{
+		height: 69px;
+	}
+	.wrapper {
+	    padding-top: 69px;
+	}
+	.menu_animado{
+		top: 69px;
+	}
+	.m_a_item{
+		font-size: 22px;
+	}
+	.contenido.contenido_video{
+		min-height: -o-calc(100vh - 69px);
+	    min-height: -ms-calc(100vh - 69px);
+	    min-height: -moz-calc(100vh - 69px);
+	    min-height: -webkit-calc(100vh - 69px);
+	    min-height: calc(100vh - 69px);
+	}
+	.cartel{
+		background-color: transparent;
+	}
+	.m_a_item p{
+	    line-height: 25px;
+	}
+	.cartel_img img{
+	    max-height: -o-calc(100vh - 90px);
+	    max-height: -ms-calc(100vh - 90px);
+	    max-height: -moz-calc(100vh - 90px);
+	    max-height: -webkit-calc(100vh - 90px);
+	    max-height: calc(100vh - 90px);
+	}
+	.area_sponsor{
+	    margin: 0px 10px 15px;
+	}
+}
+
+@media screen and (max-height: 660px){
+	.over_artista .titulo h2{
+	    font-size: 40px;
+	}
+	.over_artista .titulo h3{
+		font-size: 17px;
+	}
+	.footer_artista_int{
+		font-size: 14px;
+	}
+	.contenido.contenido_break .contenido_int{
+		    width: 100%;
+	}
+	.contenido_back{
+	    width: -o-calc(100% - 60px);
+	    width: -ms-calc(100% - 60px);
+	    width: -moz-calc(100% - 60px);
+	    width: -webkit-calc(100% - 60px);
+	    width: calc(100% - 60px);
+    	padding: 60px 15px;
+	}
+	.banner_artista .titulo_artista_int h2 {
+	    font-size: 16px;
+	}
+	.titulo_artista_int h2 {
+	    font-size: 14px;
+	}
+
+
+}
+
+@media screen and (max-height: 650px){
+	header{
+		    height: 69px;
+	}
+	.wrapper {
+	    padding-top: 69px;
+	}
+	.contenido.contenido_video{
+		min-height: -o-calc(100vh - 69px);
+		min-height: -ms-calc(100vh - 69px);
+		min-height: -moz-calc(100vh - 69px);
+		min-height: -webkit-calc(100vh - 69px);
+		min-height: calc(100vh - 69px);
+	}
+	.cartel{
+		min-height: -o-calc(100vh - 120px);
+		min-height: -ms-calc(100vh - 120px);
+		min-height: -moz-calc(100vh - 120px);
+		min-height: -webkit-calc(100vh - 120px);
+		min-height: calc(100vh - 120px);
+		margin: 0px; 
+		background-color: transparent;
+	}
+	
+	.menu_animado{
+		top: 69px;
+	}
+	.cartel_img img {
+		max-height: -o-calc(100vh - 90px);
+		max-height: -ms-calc(100vh - 90px);
+		max-height: -moz-calc(100vh - 90px);
+		max-height: -webkit-calc(100vh - 90px);
+		max-height: calc(100vh - 90px); 
+    }
+
+
+}
+
+@media screen and (max-width: 630px){
+	.cartel{
+		width: -o-calc(100vw - 80px);
+		width: -ms-calc(100vw - 80px);
+		width: -moz-calc(100vw - 80px);
+		width: -webkit-calc(100vw - 80px);
+		width: calc(100vw - 80px);
+	}
+	.header_int, 
+	.contenido.contenido_break .contenido_int, 
+	.footer_int,
+	.pleca_gris_int,
+	.contenido.contenido_boletos .contenido_int{
+		width: -o-calc(100% - 20px);
+		width: -ms-calc(100% - 20px);
+		width: -moz-calc(100% - 20px);
+		width: -webkit-calc(100% - 20px);
+		width: calc(100% - 20px);
+	}
+}
+
+@media screen and (max-width: 600px){
+	.footer_artista .red_artista {
+        padding: 0px 20px 15px;
+    	font-size: 14px;
+	}
+	.footer_artista_int{
+	    flex-wrap: wrap;
+    	justify-content: center;
+	}
+}
+
+@media screen and (max-width: 580px){
+
+	.cartel{
+    	width: -o-calc(100vw - 20px);
+	    width: -ms-calc(100vw - 20px);
+	    width: -moz-calc(100vw - 20px);
+	    width: -webkit-calc(100vw - 20px);
+	    width: calc(100vw - 20px);
+	}
+	
+	.area_sponsor .sponsors{
+		text-align: center;
+	}
+}
+
+
+@media screen and (max-width: 560px){
+	.btn .linea{
+		width: 26px;
+		height: 4px;
+	}
+	header .logo img {
+	    width: 156px;
+	}
+	header .lado_der .boletos {
+	    height: 26px;
+	    line-height: 26px;
+	}
+	.btn {
+	    margin-left: 10px;
+	}
+
+	.contenido_back {
+	    width: -o-calc(100% - 100px);
+	    width: -ms-calc(100% - 100px);
+	    width: -moz-calc(100% - 100px);
+	    width: -webkit-calc(100% - 100px);
+	    width: calc(100% - 100px);
+	    padding: 30px 20px 30px;
+	}
+
+}
+
+@media screen and (max-width: 500px){
+	.contenido.contenido_boletos .columna{
+		width: 100%;
+	}
+	.area_sponsor{
+	    margin: 0px 5px 15px;
+	}
+	.over_artista .titulo{
+	    padding: 10px 15px 15px;
+	}
+	.over_artista .titulo h2{
+		font-size: 24px;
+	}
+	.over_artista .titulo h3{
+		font-size: 15px;
+	}
+	.over_artista .texto{
+	    width: -o-calc(100% - 30px);
+	    width: -ms-calc(100% - 30px);
+	    width: -moz-calc(100% - 30px);
+	    width: -webkit-calc(100% - 30px);
+	    width: calc(100% - 30px);
+	}
+	.footer_artista_int{
+		width: -o-calc(100% - 30px);
+		width: -ms-calc(100% - 30px);
+		width: -moz-calc(100% - 30px);
+		width: -webkit-calc(100% - 30px);
+		width: calc(100% - 30px);
+	}
+	.banner_artista .titulo_artista_int h2 {
+	    font-size: 14px;
+	}
+	.titulo_artista_int h2 {
+	    font-size: 12px;
+	    letter-spacing: 0em;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.footer_int .columna input{
+		width: 100%;
+	}
+	.footer_int .columna form{
+		display: flex;
+    	flex-wrap: wrap;
+	}
+	.footer_int .columna input.btn_input{
+	    margin: 10px auto 0px;
+	}
+	.pleca_gris{
+		height: auto;
+	}
+	.pleca_gris_int{
+		display: block;
+	    height: auto;
+	    padding: 20px 0px 0px;
+	}
+	.pleca_gris_int a img, .pleca_gris_int span img{
+		margin-bottom: 20px;
+	}
+	.etiqueta p a img{
+	    height: auto;
+    	max-width: -o-calc(100% - 40px);
+    	max-width: -moz-calc(100% - 40px);
+    	max-width: -webkit-calc(100% - 40px);
+    	max-width: -ms-calc(100% - 40px);
+    	max-width: calc(100% - 40px);
+	}
+	.etiqueta p {
+	    font-size: 24px;
+	}
+	.boleto_negro .boleto_superior h2 img{
+		max-width: -o-calc(100% - 20px);
+		max-width: -ms-calc(100% - 20px);
+		max-width: -moz-calc(100% - 20px);
+		max-width: -webkit-calc(100% - 20px);
+		max-width: calc(100% - 20px);
+	}
+	.contenido.contenido_break .contenido_int .imagenes .mosaico img.nor_item{
+		max-width: 100%;
+    	margin: 0px 0px 20px;
+	}
+	.redes_footer .red{
+		font-size: 16px;
+	}
+	.area_cartel_int.area_cartel_int_footer .fecha{
+		    border: none;
+		    border-bottom: 2px solid #f8ecd7;
+    width: 100%;
+    text-align: center;
+	}
+	.area_cartel_int.area_cartel_int_footer .direccion {
+	    width: 100%;
+	    text-align: center;
+	}
+
+
+}
+
+@media screen and (max-width: 460px){
+	.cartel_img{
+	    width: -o-calc(100% - 20px);
+	    width: -ms-calc(100% - 20px);
+	    width: -moz-calc(100% - 20px);
+	    width: -webkit-calc(100% - 20px);
+	    width: calc(100% - 20px);
+    	margin: auto;	
+	}
+	.boton p{
+	    font-size: 34px;
+	}
+	.conenido_centrado_sponsors {
+	    width: calc(100% - 140px);
+	}
+	
+}
+
+@media screen and (max-width: 440px){
+	.over_artista{
+		width: -o-calc(100% - 20px);
+		width: -ms-calc(100% - 20px);
+		width: -moz-calc(100% - 20px);
+		width: -webkit-calc(100% - 20px);
+		width: calc(100% - 20px);
+	}
+	.over_artista .titulo {
+	    padding: 10px 10px 15px;
+	}
+	.over_artista .texto {
+	    width: -o-calc(100% - 20px);
+	    width: -ms-calc(100% - 20px);
+	    width: -moz-calc(100% - 20px);
+	    width: -webkit-calc(100% - 20px);
+	    width: calc(100% - 20px);
+	}
+
+}
+
+@media screen and (max-width: 430px){
+	.boleto_superior h2 {
+	    font-size: 30px;
+	    min-height: 38px;
+	}
+	.boleto_int {
+	    padding: 20px 20px 34px;
+	}
+	.precio {
+		font-size: 42px;
+		margin: 10px 0px;
+	}
+	.incluye {
+	    font-size: 28px;
+	}
+	.listado li {
+	    font-size: 12px;
+	}
+	.boton p {
+	    font-size: 24px;
+	}
+	.pd_m p{
+		font-size: 13px;
+	}
+	.area_int{
+		padding: 10px 0px;
+		font-size: 16px;
+	}
+	.area{
+		min-height: auto;
+	}
+	.m_a_item{
+		font-size: 18px;
+	}
+
+}
+
+@media screen and (max-width: 400px){
+	.contenido_back {
+	    width: -o-calc(100% - 30px);
+	    width: -ms-calc(100% - 30px);
+	    width: -moz-calc(100% - 30px);
+	    width: -webkit-calc(100% - 30px);
+	    width: calc(100% - 30px);
+	    padding: 20px 5px 0px;
+	}
+	.conenido_centrado_sponsors {
+	    width: -o-calc(100% - 30px);
+	    width: -ms-calc(100% - 30px);
+	    width: -moz-calc(100% - 30px);
+	    width: -webkit-calc(100% - 30px);
+	    width: calc(100% - 30px);
+	    padding: 20px 5px;
+	}
+}
+
+@media screen and (max-width: 380px){
+	header .lado_der .boletos{
+	    height: 26px;
+	    line-height: 25px;
+	    padding: 3px 5px 0px;
+	}
+}
+
+@media screen and (max-width: 370px){
+	.redes_footer .red{
+		margin: 0px 5px;
+	}
+	.boleto_inferior{
+		font-size: 24px;
+    line-height: 44px;
+	}
+	header .lado_der .boletos{
+		font-size: 14px;
+		max-width: 100px;
+		text-align: right;
+		line-height: 18px;
+		height: auto;
+	    padding: 1px 5px 0px;
+	}
+	.boleto_int{
+	    padding: 10px 10px 15px;
+	}
+
+}
+@media screen and (max-width: 330px){
+	.area_cartel_texto span {
+	    font-size: 13px;
+	}
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+<header>
+	<div class="header_int">
+		<div class="logo">
+			<img src="img/logo_img.png">
+		</div>
+		<div class="lado_der">
+			<a href="https://refunds.playpass.eu/es/events/bravo-2020" target="_blank" class="boletos">
+				<p>reembolso cashless</p>
+			</a>
+			<!-- <div class="btn">
+				<div class="linea linea_01"></div>
+				<div class="linea linea_02"></div>
+				<div class="linea linea_03"></div>
+			</div> -->
+		</div>
+	</div>
+	<div class="menu_desplegables">
+		<nav class="menu_desplegable_int">
+			<span class="menu_item">Artistas</span>
+			<span class="menu_item">About</span>
+			<span class="menu_item">Boletos</span>
+			<span class="menu_item">Sponsors</span>
+		</nav>
+	</div>
+</header> 
+
+
+
+<!-- home -->
+
+<div class="wrapper">
+
+
+
+<section class="contenido contenido_video">
+	<div class="cartel">
+		<div class="logo_cartel">
+			<img src="img/logo_full.png">
+		</div>
+		<div class="area_cartel">
+			<div class="area_cartel_int area_cartel_bravo">
+				<img class="c_bravo" src="img/bravo_gnp.jpg">
+				<div class="area_cartel_texto">
+					<p>
+						<span class="super">BARNT</span>
+						<span class="super">Blond:ish</span>
+					</p>
+					<p>
+						<span>Brolorizo</span>
+						<span class="super">Flamingosis</span>
+					</p>
+					<p>
+						<span>Jarreau Vandal</span>
+						<span>Kora</span>
+					</p>
+
+					<p>
+						<span class="solo">Kuumba</span>
+					</p>
+
+					<p>
+						<span class="super">Mildlife</span>
+						<span>Mystery Affair</span>
+					</p>
+					<p>
+						<span class="super">MIRA</span>
+						<span>NAZA</span>
+						<span>NICO BORGIO</span>
+					</p>
+					<p>
+						<span>Patricio</span>
+						<span class="super">Pional</span>
+						<span class="super">Romare</span>
+					</p>
+					<p>
+						<span class="solo">Rodrigo Gallardo</span>
+					</p>
+					<p>
+						<span class="super solo">Sainte Vie (live)</span>
+					</p>
+					<p>
+						<span>Soni Ceron</span>
+						<span>The Menzia</span>
+					</p>
+					<p>
+						<span class="centrar">DOMO X LISTA</span>
+					</p>
+				</div>
+			</div>
+			<div class="area_cartel_int">
+				<div class="footer_cartel_uno">
+					<h2>Boletos en</h2>
+					<p><a href=""><img src="upload/ticket.png"></a> | <span><img src="upload/bravo_festival.png"></span></p>
+				</div>
+				<div class="footer_cartel_dos">
+					<div class="area_sponsor">
+						<div class="titulo">
+							<h4>Patrocinado por</h4>
+						</div>
+						<div class="sponsors">
+							<img src="upload/patrocinadores/gnp.png">
+							<img src="upload/patrocinadores/citibanamex.png">
+							<img src="upload/patrocinadores/modelo.png">
+							<img src="upload/patrocinadores/pepsi.png">
+							<img src="upload/patrocinadores/redbull.png">
+							<img src="upload/patrocinadores/didi.png">
+						</div>
+					</div>
+
+					<div class="area_sponsor">
+						<div class="titulo">
+							<h4>Presentado por</h4>
+						</div>
+						<div class="sponsors">
+							<img src="upload/patrocinadores/eco.png">
+							<img src="upload/patrocinadores/archipielago.png">
+							<img src="upload/patrocinadores/ocesa.png">
+							<img src="upload/patrocinadores/horchata.png">
+						</div>
+					</div>
+
+					<div class="area_sponsor">
+						<div class="titulo">
+							<h4>Aliado</h4>
+						</div>
+						<div class="sponsors">
+							<img src="upload/patrocinadores/voiash.png">
+							<img src="upload/patrocinadores/lista.png">
+							<img src="upload/patrocinadores/crispy.png">
+						</div>
+					</div>
+
+					
+
+					
+				</div>
+			</div>
+
+			<div class="area_cartel_int area_cartel_int_footer">
+				<div class="fecha">
+					<p>14 DE MARZO 2020</p>
+				</div>
+				<div class="direccion">
+					<p>AVE JARDÍN, RANCHO AGUSTÍN VALLE DE BRAVO, MEX</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<div class="wrapper_int">
+<div class="menu_animado slideText">
+	<div class="menu_animado_int slideText-container">
+		<div class="menu_animado_scroll slide-txt-js">
+			<div class="m_a_item"><p>VALLE DE BRAVO  14  DE MARZO 2020</p></div>
+			<div class="m_a_item"><p>VALLE DE BRAVO  14  DE MARZO 2020</p></div>
+			<div class="m_a_item"><p>VALLE DE BRAVO  14  DE MARZO 2020</p></div>
+			<div class="m_a_item"><p>VALLE DE BRAVO  14  DE MARZO 2020</p></div>
+			<div class="m_a_item"><p>VALLE DE BRAVO  14  DE MARZO 2020</p></div>
+			<div class="m_a_item"><p>VALLE DE BRAVO  14  DE MARZO 2020</p></div>
+			<div class="m_a_item"><p>VALLE DE BRAVO  14  DE MARZO 2020</p></div>
+			<div class="m_a_item"><p>VALLE DE BRAVO  14  DE MARZO 2020</p></div>
+			<div class="m_a_item"><p>VALLE DE BRAVO  14  DE MARZO 2020</p></div>
+			<div class="m_a_item"><p>VALLE DE BRAVO  14  DE MARZO 2020</p></div>
+		</div>
+	</div>
+</div>
+
+
+<section class="contenido contenido_artistas">
+	<div class="banner_artista">
+		<!-- nombre -->
+		<div class="item_artista item_artista_cvideo">
+			<div class="imagen_artista" style="background-image: url(upload/artista/01.jpg);"></div>
+			<div class="titulo_artista">
+				<div class="titulo_artista_int">
+					<h2>Barnt</h2>
+				</div>
+			</div>
+		</div>
+		<!-- nombre -->
+		<div class="item_artista item_artista_cvideo">
+			<div class="imagen_artista" style="background-image: url(upload/artista/02.jpg);"></div>
+			<div class="titulo_artista">
+				<div class="titulo_artista_int">
+					<h2>Blond:ish</h2>
+				</div>
+			</div>
+		</div>
+		<!-- nombre -->
+		<div class="item_artista item_artista_cvideo">
+			<div class="imagen_artista" style="background-image: url(upload/artista/03.jpg);"></div>
+			<div class="titulo_artista">
+				<div class="titulo_artista_int">
+					<h2>Brolorizo</h2>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<div class="mosaico_artistas">
+		
+		<!-- nombre -->
+		<div class="item_artista item_artista_cvideo">
+			<div class="imagen_artista" style="background-image: url(upload/artista/04.jpg);"></div>
+			<div class="titulo_artista">
+				<div class="titulo_artista_int">
+					<h2>Flamingosis</h2>
+				</div>
+			</div>
+		</div>
+		<!-- nombre -->
+		<div class="item_artista item_artista_cvideo">
+			<div class="imagen_artista" style="background-image: url(upload/artista/05.jpg);"></div>
+			<div class="titulo_artista">
+				<div class="titulo_artista_int">
+					<h2>Jarreau Vandal</h2>
+				</div>
+			</div>
+		</div>
+
+		<!-- nombre -->
+		<div class="item_artista item_artista_cvideo">
+			<div class="imagen_artista" style="background-image: url(upload/artista/06.jpg);"></div>
+			<div class="titulo_artista">
+				<div class="titulo_artista_int">
+					<h2>Kora</h2>
+				</div>
+			</div>
+		</div>
+
+		<!-- nombre -->
+		<div class="item_artista item_artista_cvideo">
+			<div class="imagen_artista" style="background-image: url(upload/artista/07.jpg);"></div>
+			<div class="titulo_artista">
+				<div class="titulo_artista_int">
+					<h2>Kuumba</h2>
+				</div>
+			</div>
+		</div>
+
+		
+
+		<!-- nombre -->
+		<div class="item_artista item_artista_cvideo">
+			<div class="imagen_artista" style="background-image: url(upload/artista/09.jpg);"></div>
+			<div class="titulo_artista">
+				<div class="titulo_artista_int">
+					<h2>Mildlife</h2>
+				</div>
+			</div>
+		</div>
+		<!-- nombre -->
+		<div class="item_artista item_artista_cvideo">
+			<div class="imagen_artista" style="background-image: url(upload/artista/10.jpg);"></div>
+			<div class="titulo_artista">
+				<div class="titulo_artista_int">
+					<h2>Mira</h2>
+				</div>
+			</div>
+		</div>
+		<!-- nombre -->
+		<div class="item_artista item_artista_cvideo">
+			<div class="imagen_artista" style="background-image: url(upload/artista/11.jpg);"></div>
+			<div class="titulo_artista">
+				<div class="titulo_artista_int">
+					<h2>Mystery Affair</h2>
+				</div>
+			</div>
+		</div>
+		<!-- nombre -->
+		<div class="item_artista item_artista_cvideo">
+			<div class="imagen_artista" style="background-image: url(upload/artista/12.jpg);"></div>
+			<div class="titulo_artista">
+				<div class="titulo_artista_int">
+					<h2>Naza</h2>
+				</div>
+			</div>
+		</div>
+		<!-- nombre -->
+		<div class="item_artista item_artista_cvideo">
+			<div class="imagen_artista" style="background-image: url(upload/artista/13.jpg);"></div>
+			<div class="titulo_artista">
+				<div class="titulo_artista_int">
+					<h2>Nico Borgio</h2>
+				</div>
+			</div>
+		</div>
+		<!-- nombre -->
+		<div class="item_artista item_artista_cvideo">
+			<div class="imagen_artista" style="background-image: url(upload/artista/14.jpg);"></div>
+			<div class="titulo_artista">
+				<div class="titulo_artista_int">
+					<h2>Patricio</h2>
+				</div>
+			</div>
+		</div>
+		<!-- nombre -->
+		<div class="item_artista item_artista_cvideo">
+			<div class="imagen_artista" style="background-image: url(upload/artista/15.jpg);"></div>
+			<div class="titulo_artista">
+				<div class="titulo_artista_int">
+					<h2>Pional</h2>
+				</div>
+			</div>
+		</div>
+		<!-- nombre -->
+		<div class="item_artista item_artista_cvideo">
+			<div class="imagen_artista" style="background-image: url(upload/artista/16.jpg);"></div>
+			<div class="titulo_artista">
+				<div class="titulo_artista_int">
+					<h2>Romare</h2>
+				</div>
+			</div>
+		</div>
+		<!-- nombre -->
+		<div class="item_artista item_artista_cvideo">
+			<div class="imagen_artista" style="background-image: url(upload/artista/17.jpg);"></div>
+			<div class="titulo_artista">
+				<div class="titulo_artista_int">
+					<h2>Rodrigo Gallardo</h2>
+				</div>
+			</div>
+		</div>
+		<!-- nombre -->
+		<div class="item_artista item_artista_cvideo">
+			<div class="imagen_artista" style="background-image: url(upload/artista/18.jpg);"></div>
+			<div class="titulo_artista">
+				<div class="titulo_artista_int">
+					<h2>Sainte Vie</h2>
+				</div>
+			</div>
+		</div>
+		<!-- nombre -->
+		<div class="item_artista item_artista_cvideo">
+			<div class="imagen_artista" style="background-image: url(upload/artista/19.jpg);"></div>
+			<div class="titulo_artista">
+				<div class="titulo_artista_int">
+					<h2>Soni Ceron</h2>
+				</div>
+			</div>
+		</div>
+		<!-- nombre -->
+		<div class="item_artista item_artista_cvideo">
+			<div class="imagen_artista" style="background-image: url(upload/artista/20.jpg);"></div>
+			<div class="titulo_artista">
+				<div class="titulo_artista_int">
+					<h2>The Menzia</h2>
+				</div>
+			</div>
+		</div>
+
+
+		
+	</div>
+</section>
+
+
+
+<section class="contenido contenido_break">
+	<div class="contenido_back">
+		<div class="contenido_int">
+			<div class="imagenes">
+				<div class="mosaico">
+					<img class="nor_item" src="upload/fondo.jpg">
+				</div>
+			</div>
+			<div class="texto">
+				<p>Bravo GNP es un festival de música electrónica que transforma el bosque en un área de baile y cultura al aire libre. Artes escénicas, música y gastronomía, son algunas de las actividades que sucederán en este paraíso dentro de otro paraíso como lo es Valle de Bravo, México.</p>
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="contenido contenido_imagen">
+	<div class="contenido_back">
+		<div class="contenido_int">
+			<div class="titulo_etiqueta">
+				<h2>Horario</h2>
+			</div>
+			<div class="cubierta">
+				<img class="img01" src="upload/updates/horario.jpg">
+				<img class="img02" src="upload/updates/horario_2.jpg">
+				<div class="btn_abrir"></div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="contenido contenido_imagen">
+	<div class="contenido_back">
+		<div class="contenido_int">
+			<div class="titulo_etiqueta">
+				<h2>Mapa del Sitio</h2>
+			</div>
+			<div class="cubierta">
+				<img src="upload/updates/mapa_lugar.jpg">
+				<div class="btn_abrir"></div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="contenido contenido_imagen">
+	<div class="contenido_back">
+		<div class="contenido_int">
+			<div class="titulo_etiqueta">
+				<h2>Como llegar</h2>
+			</div>
+			<div class="cubierta">
+				<img src="upload/updates/comollegar.png">
+				<div class="btn_abrir"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="contenido contenido_boletos">
+	<div class="contenido_back">
+		<div class="contenido_int">
+			<div class="columna">
+				<div class="boleto_amarillo">
+					<div class="boleto_int">
+						<div class="boleto_superior">
+							<h2>GENERAL</h2>
+							<p class="precio">$990</p>
+							<p class="incluye">Incluye</p>
+							<div class="listado">
+								<ul>
+									<li>* Acceso al Festival *</li>
+									<li>* Accesos a todos los escenarios *</li>
+									<li>* Zona de Comida & Barras *</li>
+								</ul>
+
+							</div>
+						</div>
+						<div class="boleto_inferior">
+							<a href="http://bit.ly/Bravo_GNP" target="_blank" class="boton"><p>COMPRA YA</p></a>
+						</div>
+					</div>
+					<p class="info_boleto">Boletos en <a href="http://bit.ly/Bravo_GNP" target="_blank"><img src="upload/ticket.png"></a></p>
+				</div>
+			</div>
+			<div class="columna">
+				<div class="boleto_negro">
+					<div class="boleto_int">
+						<div class="boleto_superior">
+							<h2>Transporte</h2>
+							<div class="precio_doble">
+								<div class="pd_m">
+									<h2>$115</h2>
+									<p>Solo Ida</p>
+								</div>
+								<div class="pd_m">
+									<h2>$230</h2>
+									<p>Ida y Vuelta</p>
+								</div>
+							</div>
+							<div class="area">
+								<div class="area_int">
+									<p>SALIDA - 14.03.20<br>
+									FUENTE DE CIBELES<br>
+									12:00 / 16:00 / 19:00</p>
+								</div>
+								<div class="area_int">
+									<p>REGRESO - 15.03.20<br>
+									VALLE DE BRAVO<br>
+									01:00 / 03:30 / 07:00</p>
+								</div>
+							</div>
+						</div>
+						<div class="boleto_inferior">
+							<a href="https://bravo-gnp-2020-transporte-oficial.boletia.com/" target="_blank" class="boton"><p>COMPRA YA</p></a>
+						</div>
+					</div>
+					<p class="info_boleto">Boletos en <a href="https://bravo-gnp-2020-transporte-oficial.boletia.com/" target="_blank"><img src="upload/boletia.png"></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="contenido contenido_sponsors contenido_footer">
+	<div class="conenido_centrado_sponsors">
+		<div class="area_sponsor">
+			<div class="titulo">
+				<h4>Patrocinado por</h4>
+			</div>
+			<div class="sponsors">
+				<span class="sponsor_item">
+					<img src="upload/patrocinadores/gnp.png">
+				</span>
+				<span class="sponsor_item">
+					<img src="upload/patrocinadores/citibanamex.png">
+				</span>
+				<span class="sponsor_item">
+					<img src="upload/patrocinadores/modelo.png">
+				</span>
+				<span class="sponsor_item">
+					<img src="upload/patrocinadores/pepsi.png">
+				</span>
+				<span class="sponsor_item">
+					<img src="upload/patrocinadores/redbull.png">
+				</span>
+				<span class="sponsor_item">
+					<img src="upload/patrocinadores/didi.png">
+				</span>
+			</div>
+		</div>
+
+		<div class="area_sponsor">
+			<div class="titulo">
+				<h4>Presentado Por</h4>
+			</div>
+			<div class="sponsors">
+				<span class="sponsor_item ecolive">
+					<img src="upload/patrocinadores/eco.png">
+				</span>
+				<span class="sponsor_item ecolive">
+					<img src="upload/patrocinadores/archipielago.png">
+				</span>
+				<span class="sponsor_item ecolive">
+					<img src="upload/patrocinadores/ocesa.png">
+				</span>
+				<span class="sponsor_item ecolive">
+					<img src="upload/patrocinadores/horchata.png">
+				</span>
+			</div>
+		</div>
+
+		<div class="area_sponsor">
+			<div class="titulo">
+				<h4>Aliado</h4>
+			</div>
+			<div class="sponsors">
+				<span class="sponsor_item ecolive">
+					<img src="upload/patrocinadores/voiash.png">
+				</span>
+				<span class="sponsor_item ecolive">
+					<img src="upload/patrocinadores/lista.png">
+				</span>
+				<span class="sponsor_item ecolive">
+					<img src="upload/patrocinadores/crispy.png">
+				</span>
+			</div>
+		</div>
+	
+
+	</div>
+
+</section>
+
+
+</div>
+
+
+
+
+
+</div>
+
+<div class="footer_espacio"></div>
+
+<footer>
+	<div class="footer_int">
+		<!-- <div class="columna">
+			<p>Suscríbete a nuestro Newsletter:</p>
+			<form>
+				<input type="text" placeholder="@mail" name="">
+				<input class="btn_input" type="submit" value="Enviar" name="">
+			</form>
+		</div> -->
+		<div class="columna">
+			<nav class="redes_footer">
+				<a href="https://www.youtube.com/channel/UCBSvljzswhj9TR3VuQJYmLw" target="_blank" class="red"><span>Yt</span></a>
+				<a href="https://www.instagram.com/bravognp/" target="_blank" class="red"><span>Ig</span></a>
+				<a href="https://twitter.com/BravoGNP" target="_blank" class="red"><span>Tw</span></a>
+				<a href="https://www.facebook.com/festivalbravo/" target="_blank" class="red"><span>Fb</span></a>
+
+				
+			</nav>
+		</div>
+	</div>
+	<div class="footer_bottom">
+		<div class="f_b_int">
+			<a href="https://www.dupla.mx/" target="_blank" class="dupla">&lt;&#47; dupla &gt;</a>
+		</div>
+	</div>
+</footer>
+
+
+<!-- over_artistas -->
+<!-- over full -->
+<div class="over_full">
+	<div class="over_full_cerrar">
+		<div class="icono_cerrar"></div>
+	</div>
+	<div class="over_artista">
+		<div class="titulo">
+			<h2>Barnt</h2>
+		</div>
+		
+		<div class="footer_artista">
+			<div class="footer_artista_int">
+				<a href="https://www.facebook.com/barntofmagazine/" class="red_artista" target="_blank">Facebook</a>
+				<a href="https://www.instagram.com/barntworlds/" class="red_artista" target="_blank">Instagram</a>
+				<a href="https://twitter.com/BarntWorlds" class="red_artista" target="_blank">Twitter</a>
+			</div>
+		</div>
+	</div>
+</div><!-- over full -->
+<div class="over_full">
+	<div class="over_full_cerrar">
+		<div class="icono_cerrar"></div>
+	</div>
+	<div class="over_artista">
+		<div class="titulo">
+			<h2>Blond:ish</h2>
+		</div>
+		
+		<div class="footer_artista">
+			<div class="footer_artista_int">
+				<a href="https://www.facebook.com/Blondish/" class="red_artista" target="_blank">Facebook</a>
+				<a href="https://www.instagram.com/blondish/" class="red_artista" target="_blank">Instagram</a>
+			</div>
+		</div>
+	</div>
+</div><!-- over full -->
+<div class="over_full">
+	<div class="over_full_cerrar">
+		<div class="icono_cerrar"></div>
+	</div>
+	<div class="over_artista">
+		<div class="titulo">
+			<h2>Brolorizo</h2>
+		</div>
+		
+		<div class="footer_artista">
+			<div class="footer_artista_int">
+				<a href="https://www.instagram.com/brolorizo/" class="red_artista" target="_blank">Instagram</a>
+			</div>
+		</div>
+	</div>
+</div><!-- over full -->
+<div class="over_full">
+	<div class="over_full_cerrar">
+		<div class="icono_cerrar"></div>
+	</div>
+	<div class="over_artista">
+		<div class="titulo">
+			<h2>Flamingosis</h2>
+		</div>
+		
+		<div class="footer_artista">
+			<div class="footer_artista_int">
+				<a href="https://www.instagram.com/flamingosis/" class="red_artista" target="_blank">Instagram</a>
+				<a href="https://www.facebook.com/flamingosis/" class="red_artista" target="_blank">Facebook</a>
+				<a href="https://twitter.com/MrFlamingosis" class="red_artista" target="_blank">Twitter</a>
+			</div>
+		</div>
+	</div>
+</div><!-- over full -->
+<div class="over_full">
+	<div class="over_full_cerrar">
+		<div class="icono_cerrar"></div>
+	</div>
+	<div class="over_artista">
+		<div class="titulo">
+			<h2>Jarreau Vandal</h2>
+		</div>
+		
+		<div class="footer_artista">
+			<div class="footer_artista_int">
+				<a href="https://www.instagram.com/jarreauvandal/" class="red_artista" target="_blank">Instagram</a>
+				<a href="https://www.facebook.com/jarreauvandal/" class="red_artista" target="_blank">Facebook</a>
+				<a href="https://twitter.com/jarreauvandal" class="red_artista" target="_blank">Twitter</a>
+			</div>
+		</div>
+	</div>
+</div><!-- over full -->
+<div class="over_full">
+	<div class="over_full_cerrar">
+		<div class="icono_cerrar"></div>
+	</div>
+	<div class="over_artista">
+		<div class="titulo">
+			<h2>Kora</h2>
+		</div>
+		
+		<div class="footer_artista">
+			<div class="footer_artista_int">
+				<a href="https://www.instagram.com/koramusique/" class="red_artista" target="_blank">Instagram</a>
+				<a href="https://www.facebook.com/koramusique/" class="red_artista" target="_blank">Facebook</a>
+				<a href="https://twitter.com/koramusique" class="red_artista" target="_blank">Twitter</a>
+			</div>
+		</div>
+	</div>
+</div><!-- over full -->
+<div class="over_full">
+	<div class="over_full_cerrar">
+		<div class="icono_cerrar"></div>
+	</div>
+	<div class="over_artista">
+		<div class="titulo">
+			<h2>Kuumba</h2>
+		</div>
+		
+		<div class="footer_artista">
+			<div class="footer_artista_int">
+				<a href="https://www.instagram.com/kuumba_gatherings/" class="red_artista" target="_blank">Instagram</a>
+				<a href="https://www.facebook.com/2Kuumba/" class="red_artista" target="_blank">Facebook</a>
+			</div>
+		</div>
+	</div>
+</div><!-- over full -->
+<div class="over_full">
+	<div class="over_full_cerrar">
+		<div class="icono_cerrar"></div>
+	</div>
+	<div class="over_artista">
+		<div class="titulo">
+			<h2>Mildlife</h2>
+		</div>
+		
+		<div class="footer_artista">
+			<div class="footer_artista_int">
+				<a href="https://www.instagram.com/mildlife_/" class="red_artista" target="_blank">Instagram</a>
+				<a href="https://www.facebook.com/Mildlife/" class="red_artista" target="_blank">Facebook</a>
+			</div>
+		</div>
+	</div>
+</div><!-- over full -->
+<div class="over_full">
+	<div class="over_full_cerrar">
+		<div class="icono_cerrar"></div>
+	</div>
+	<div class="over_artista">
+		<div class="titulo">
+			<h2>Mira</h2>
+		</div>
+		
+		<div class="footer_artista">
+			<div class="footer_artista_int">
+				<a href="https://www.instagram.com/mira_kater/" class="red_artista" target="_blank">Instagram</a>
+				<a href="https://www.facebook.com/Mira.Artist/" class="red_artista" target="_blank">Facebook</a>
+			</div>
+		</div>
+	</div>
+</div><!-- over full -->
+<div class="over_full">
+	<div class="over_full_cerrar">
+		<div class="icono_cerrar"></div>
+	</div>
+	<div class="over_artista">
+		<div class="titulo">
+			<h2>Mystery Affair</h2>
+		</div>
+		
+		<div class="footer_artista">
+			<div class="footer_artista_int">
+				<a href="https://www.facebook.com/mysteryaffair/" class="red_artista" target="_blank">Facebook</a>
+				<a href="https://www.instagram.com/mysteryaffair/" class="red_artista" target="_blank">Instagram</a>
+				<a href="https://twitter.com/MysteryAffairs" class="red_artista" target="_blank">Twitter</a>
+			</div>
+		</div>
+	</div>
+</div><!-- over full -->
+<div class="over_full">
+	<div class="over_full_cerrar">
+		<div class="icono_cerrar"></div>
+	</div>
+	<div class="over_artista">
+		<div class="titulo">
+			<h2>Naza</h2>
+		</div>
+		
+		<div class="footer_artista">
+			<div class="footer_artista_int">
+				<a href="https://www.instagram.com/naza_musik/" class="red_artista" target="_blank">Instagram</a>
+				<a href="https://www.facebook.com/nazamusikofficial/" class="red_artista" target="_blank">Facebook</a>
+			</div>
+		</div>
+	</div>
+</div><!-- over full -->
+<div class="over_full">
+	<div class="over_full_cerrar">
+		<div class="icono_cerrar"></div>
+	</div>
+	<div class="over_artista">
+		<div class="titulo">
+			<h2>Nico Borgio</h2>
+		</div>
+		
+		<div class="footer_artista">
+			<div class="footer_artista_int">
+				<a href="https://www.instagram.com/nico_borgio/" class="red_artista" target="_blank">Instagram</a>
+				<a href="https://www.facebook.com/nicoborgio/" class="red_artista" target="_blank">Facebook</a>
+			</div>
+		</div>
+	</div>
+</div><!-- over full -->
+<div class="over_full">
+	<div class="over_full_cerrar">
+		<div class="icono_cerrar"></div>
+	</div>
+	<div class="over_artista">
+		<div class="titulo">
+			<h2>Patricio</h2>
+		</div>
+		
+		<div class="footer_artista">
+			<div class="footer_artista_int">
+				<a href="https://www.instagram.com/patriciordzc/" class="red_artista" target="_blank">Instagram</a>
+			</div>
+		</div>
+	</div>
+</div><!-- over full -->
+<div class="over_full">
+	<div class="over_full_cerrar">
+		<div class="icono_cerrar"></div>
+	</div>
+	<div class="over_artista">
+		<div class="titulo">
+			<h2>Pional</h2>
+		</div>
+		
+		<div class="footer_artista">
+			<div class="footer_artista_int">
+				<a href="https://www.instagram.com/pional/" class="red_artista" target="_blank">Instagram</a>
+				<a href="https://www.facebook.com/pional/" class="red_artista" target="_blank">Facebook</a>
+				<a href="https://twitter.com/pionalmusic" class="red_artista" target="_blank">Twitter</a>
+			</div>
+		</div>
+	</div>
+</div><!-- over full -->
+<div class="over_full">
+	<div class="over_full_cerrar">
+		<div class="icono_cerrar"></div>
+	</div>
+	<div class="over_artista">
+		<div class="titulo">
+			<h2>Romare</h2>
+		</div>
+		
+		<div class="footer_artista">
+			<div class="footer_artista_int">
+				<a href="https://www.facebook.com/romaremusic/" class="red_artista" target="_blank">Facebook</a>
+				<a href="https://twitter.com/RomareMusic" class="red_artista" target="_blank">Twitter</a>
+			</div>
+		</div>
+	</div>
+</div><!-- over full -->
+<div class="over_full">
+	<div class="over_full_cerrar">
+		<div class="icono_cerrar"></div>
+	</div>
+	<div class="over_artista">
+		<div class="titulo">
+			<h2>Rodrigo Gallardo</h2>
+		</div>
+		
+		<div class="footer_artista">
+			<div class="footer_artista_int">
+				<a href="https://www.instagram.com/rodrigogallardomusic/" class="red_artista" target="_blank">Instagram</a>
+				<a href="https://www.facebook.com/RodrigoGallardoMusica/" class="red_artista" target="_blank">Facebook</a>
+			</div>
+		</div>
+	</div>
+</div><!-- over full -->
+<div class="over_full">
+	<div class="over_full_cerrar">
+		<div class="icono_cerrar"></div>
+	</div>
+	<div class="over_artista">
+		<div class="titulo">
+			<h2>Sainte Vie</h2>
+		</div>
+		
+		<div class="footer_artista">
+			<div class="footer_artista_int">
+				<a href="https://www.instagram.com/saintevieofficial/" class="red_artista" target="_blank">Instagram</a>
+				<a href="https://www.facebook.com/saintevieofficial/" class="red_artista" target="_blank">Facebook</a>
+			</div>
+		</div>
+	</div>
+</div><!-- over full -->
+<div class="over_full">
+	<div class="over_full_cerrar">
+		<div class="icono_cerrar"></div>
+	</div>
+	<div class="over_artista">
+		<div class="titulo">
+			<h2>Soni Ceron</h2>
+		</div>
+		
+		<div class="footer_artista">
+			<div class="footer_artista_int">
+				<a href="https://www.instagram.com/soni.ceron/" class="red_artista" target="_blank">Instagram</a>
+				<a href="https://www.facebook.com/Soni.0n/" class="red_artista" target="_blank">Facebook</a>
+			</div>
+		</div>
+	</div>
+</div><!-- over full -->
+<div class="over_full">
+	<div class="over_full_cerrar">
+		<div class="icono_cerrar"></div>
+	</div>
+	<div class="over_artista">
+		<div class="titulo">
+			<h2>The Menzia</h2>
+		</div>
+		
+		<div class="footer_artista">
+			<div class="footer_artista_int">
+				<a href="https://www.instagram.com/themenzia/" class="red_artista" target="_blank">Instagram</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="over_image">
+	<div class="btn_cerrar">
+		<div class="btn_cerrar_int"></div>
+	</div>
+	<div class="over_image_int">
+		<img class="img01" src="upload/updates/horario.jpg">
+		<img class="img02" src="upload/updates/horario_2.jpg">
+	</div>
+</div>
+
+<div class="over_image">
+	<div class="btn_cerrar">
+		<div class="btn_cerrar_int"></div>
+	</div>
+	<div class="over_image_int">
+		<img src="upload/updates/mapa_lugar.jpg">
+	</div>
+</div>
+
+<div class="over_image">
+	<div class="btn_cerrar">
+		<div class="btn_cerrar_int"></div>
+	</div>
+	<div class="over_image_int">
+		<img src="upload/updates/comollegar.png">
+	</div>
+</div>
+
+        
+</body>
+</html> 

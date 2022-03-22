@@ -7,6 +7,7 @@ import NotFoundPage from "./pages/404.jsx";
 import CasaPage from'./pages/home.jsx';
 import Videos from './pages/videos.jsx';
 import Menu from './Nav.js';
+import NFT from './pages/nft.jsx';
 
 
 
@@ -18,7 +19,7 @@ function App() {
             <Switch>
       <Route exact path="/" component={MainPage} />
       <Route exact path="/404" component={NotFoundPage} />
-      <Route exact path='/videos' component={Videos} />
+      <Route exact path="/ceremonios" component={NFT} />
     <Route exact path="/home" component={CasaPage}/>
       <Redirect to="/404" component={NotFoundPage} />
       </Switch> 

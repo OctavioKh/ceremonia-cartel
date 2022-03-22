@@ -1,6 +1,6 @@
 {
   "name": "webpackone",
-  "homepage": "http://festivalceremonia.com/",
+  "homepage": "https://festivalceremonia.com/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -40,6 +40,7 @@
     "bootstrap": "^4.5.3",
     "google-maps-react": "^2.0.6",
     "react": "^17.0.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",

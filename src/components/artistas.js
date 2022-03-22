@@ -1,19 +1,19 @@
 import React from "react";
-import uno from "../assets/images/001.jpeg";
-import dos from "../assets/images/002.png";
-import venue from "../assets/images/venue.jpeg";
-import strip2 from '../assets/images/strip02.png'
+import strip2 from "../assets/images/strip02.png";
+import Dashboard from "./dashboard";
+
+
 
 class Artistas extends React.Component {
   render() {
     return (
       <>
+    
         <div className="artistxs">
-
           <div className="venuex">
             <div className="imaget columnaz">
               <img
-                className="image__img2"
+                className="image__img2 "
                 src="https://festivalceremonia.com/img/FC2021/01_ASAP.png"
                 alt="A$AP ROCKY"
               />
@@ -24,22 +24,21 @@ class Artistas extends React.Component {
             <div className="imaget columnaz">
               <img
                 className="image__img2"
-                src="https://festivalceremonia.com/img/FC2021/03_ACTOSORPRESA.png"
-                alt="ACTO SORPRESA"
+                src="https://festivalceremonia.com/img/FC2021/02_WU.png"
+                alt="WU-TANG CLAN"
               />
               <div className="image__overlay2 image__overlay--two">
-                <div className="image__titleh">ACTO X ANUNCIAR</div>{" "}
+                <div className="image__titleh">WU-TANG CLAN</div>{" "}
               </div>
             </div>
-      
             <div className="imaget columnaz">
               <img
                 className="image__img2"
-                src="https://festivalceremonia.com/img/FC2021/02_.png"
-                alt="XXXXXXX"
+                src="https://festivalceremonia.com/img/FC2021/CTANGANA.jpg"
+                alt="C. TANGANA"
               />
               <div className="image__overlay2 image__overlay--three">
-                <div className="image__titleh">ACTO X ANUNCIAR</div>
+                <div className="image__titleh">C. TANGANA</div>
               </div>
             </div>
             <div className="imaget columnaz">
@@ -55,8 +54,6 @@ class Artistas extends React.Component {
               </div>
             </div>
           </div>
-
-
 
           <div className="filax">
             <div className="imaget columnax">
@@ -313,9 +310,7 @@ class Artistas extends React.Component {
             </div>
           </div>
 
-          <img src={strip2} className="strip"/>
-
-
+          <img src={strip2} className="strip" />
         </div>
       </>
     );

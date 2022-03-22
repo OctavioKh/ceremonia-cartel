@@ -5,9 +5,8 @@ import spons from '../assets/images/sponsors.png'
 export default class Sponsors extends React.Component {
 render() {
 return (
-    <section className="contenido contenido_sponsors">
-
-<div className="spons" ><img src={spons} style={{width:"100%"}}className="spons spons1"/></div>
+    <div className="contenido contenido_sponsors">
+<img src={spons} style={{width:"100%"}}className="spons spons1"/>
 {/* 
         
 	<div className="conenido_centrado_sponsors">
@@ -122,7 +121,7 @@ return (
 		</div> 
 	</div>*/}
 
-</section>
+</div>
 
 )
 

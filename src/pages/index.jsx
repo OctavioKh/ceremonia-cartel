@@ -11,6 +11,73 @@ import Sponsors from "../components/sponsors";
 import Venue from "../components/venue";
 // import Menu from "../Nav.js";
 import strip from "../assets/images/strip01.png";
+import Dashboard from "../components/dashboard";
+ import "./script1";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+
+ class Menu extends React.Component {
+
+
+  
+
+  
+  render() {
+
+
+    var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navibar").style.top = "0";
+  } else {
+    document.getElementById("navibar").style.top = "-150px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+    
+
+
+   
+
+// var prevScrollpos = window.pageYOffset;
+// window.onscroll = function() {
+//   var currentScrollPos = window.pageYOffset;
+//   if (prevScrollpos > currentScrollPos || currentScrollPos == 0) {
+//     document.getElementById("navibar").style.top = "0";
+//   } else {
+//     document.getElementById("navibar").style.top = "-150px";
+//   }
+//   prevScrollpos = currentScrollPos;
+// }
+
+  
+      return(
+
+
+        
+<>
+<div id="navibar">
+<a><img src="https://festivalceremonia.com/img/FC2021/crmn.png" id="logonavbar" alt="logo"/>
+</a>
+ <a id="listado" href="#cartel">Cartel</a>
+ <a id="listado" href="#videob">2022</a>
+        <a id="listado" href="#artistas">Artistas</a>
+        <a id="listado" href="#mapa">Lugar</a>
+        <a id="listado" href="#boletos">Boletos</a>
+         {/* <a id="listado"  href="/ceremonios">Ceremonios</a>   */}
+
+         {/* <a id="listado" href="#cartel">Cartel</a>
+ <a id="listado" href="#videob">2022</a>
+        <AnchorLink id="listado" href="#artistas">Artistas</AnchorLink>
+        <AnchorLink id="listado" href="#mapa">Lugar</AnchorLink>
+        <AnchorLink id="listado" href="#boletos">Boletos</AnchorLink> */}
+</div>
+       </>
+      );
+    }
+  }
+
 
 // import MailchimpSubscribe from "react-mailchimp-subscribe";
 
@@ -21,7 +88,7 @@ class Banner extends React.Component {
               <img
                 alt="Cartel Ceremonia 2022"
                 className="banner_img"
-                src="https://festivalceremonia.com/img/FC2021/CRMN22_Lineup_01.png"
+                src="https://festivalceremonia.com/img/FC2021/CRMN22-02.png"
               />
             </div>
     );
@@ -30,16 +97,18 @@ class Banner extends React.Component {
 
 class VideoCartel extends React.Component {
   render() {
-    return (
+    return (<>
       <div className="videoWrapper">
       <iframe 
          width="100%"
-         height="698px" 
-         src="https://www.youtube.com/embed/FTzpFMjfDxM?modestbranding=1&rel=0&showinfo=0&controls=0"
+         height="100%" 
+         src="https://www.youtube.com/embed/gCD_tT6AVDg?&rel=0&showinfo=0&controls=0"
          frameBorder="0"
          allowFullScreen></iframe>
-         <img src={strip} className="strip"/>
+        
   </div>
+   <img src={strip} className="strip"/>
+   </>
     );
   }
 }
@@ -65,14 +134,39 @@ class MainPage extends React.Component {
   render() {
     return (
       <>
-        <Banner />
-        <VideoCartel />
-        <Artistas/>
-        <Boletos/>
-        <Venue/>
-       
+      <div className="animate__animated animate__fadeIn">
+      {/* <h1 style={{backgroundColor:"#fff"}}>hoes</h1> */}
+
+        <div>
+          <Menu/>
+          <div className="all-content" >
+            <div id="cartel">
+            <Banner />
+            </div>
+        
+      <div id="videob">
+      <VideoCartel  />
+      </div>
+        
+
+        <div id="artistas">
+        <Artistas  />
+        </div>
+        
+        <div id="boletos">
+           <Boletos /> 
+           </div>
+       <div  id="mapa">
+       <Venue/>   </div>
+        
         <Sponsors/>
         <Footer/>
+          </div>
+        </div>
+        
+      </div>
+       
+        
       </>
     );
   }
