@@ -65,7 +65,7 @@ var currentScrollPos = window.pageYOffset;
         <a id="listado" href="#artistas">Artistas</a>
         <a id="listado" href="#mapa">Lugar</a>
         <a id="listado" href="#boletos">Boletos</a>
-         {/* <a id="listado"  href="/ceremonios">Ceremonios</a>   */}
+          <a id="listado"  href="/ceremonios">Ceremonios</a>   
 
          {/* <a id="listado" href="#cartel">Cartel</a>
  <a id="listado" href="#videob">2022</a>

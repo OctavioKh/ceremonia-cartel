@@ -992,6 +992,12 @@ color: #fb9e28;
   background-color: "#fc2294";
 }
 
+.slide-01-btndiv2 {
+  font-family: "MyFont", Helvetica;
+  font-size: 0.7rem !important;
+  background-color: "#fc2294";
+}
+
 .boton01{
   text-decoration:none;
 }
@@ -999,6 +1005,16 @@ color: #fb9e28;
   text-decoration:none;
   color:white;
 }
+
+.boton012{
+  text-decoration:none;
+  letter-spacing:.4rem;
+}
+.boton012:hover{
+  text-decoration:none;
+  color:white;
+}
+
 
 
 .slide-01-btn>a {
@@ -1036,6 +1052,53 @@ color: #fb9e28;
    z-index: 11;
  }
  
+
+
+
+
+
+ .slide-01-btn2>a {
+  color:#fff;
+  text-decoration:none;}
+ 
+ .slide-01-btn2 {
+  text-decoration:none;
+   top: 500px;
+   left: 57px;
+   z-index: 11;
+   justify-content: center;
+   position: absolute;
+   padding: 5px;
+   border: 0px;
+   color: white;
+   border-radius: 30px;
+   margin: 5px;
+   background-color: #fc2294 !important;
+   font-size: 1rem;
+   padding-left: 15px;
+   padding-right: 15px;
+  
+ }
+ 
+ .slide-01-btn2:hover {
+   color: black !important;
+   text-decoration: none !important;
+   background-color: white !important;
+   z-index: 11;
+ }
+ 
+ .slide-01-btn2:visited {
+   color: white !important;
+   z-index: 11;
+ }
+
+
+
+
+
+
+
+
 
 
 

@@ -15,11 +15,18 @@ export default class Slider1 extends React.Component {
                 <br /> FESTIVAL CEREMONIA 2022
               </div>
             </div>
+            
             <div className="slide-01-btndiv">
               <button type="button" className="slide-01-btn" target="_blank">
                 <a className="boton01" href="https://discord.gg/RUANEmyasF">ÚNETE A DISCORD</a>
               </button>
             </div>
+
+            {/* <div className="slide-01-btndiv2">
+              <button type="button" className="slide-01-btn2" target="_blank">
+                <a className="boton012" href="https://ceremonia.neefter.com">M  I  N  T</a>
+              </button>
+            </div> */}
           </div>
         </section>
       </>
