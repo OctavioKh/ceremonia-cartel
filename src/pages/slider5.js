@@ -34,26 +34,26 @@ export default class Slider1 extends React.Component {
                 <div className="cardq">
                   <img className="enft" style={{width:"100%"}}src="https://festivalceremonia.com/img/FC2021/CEREMONIOS0017.jpg" alt=""/>
                   <p>
-<b>@DIEGOININSTAGRAM</b>  <br/>
+<a href="https://instagram.com/diegoininstagram" target="_blank" className="colabos" rel="noopener noreferrer" alt="instagram"><b>@DIEGOININSTAGRAM</b></a>  <br/>
 FUNDADOR CEREMONIA                </p>
                 </div>
                 <div className="cardq">
                 <img className="enft" style={{width:"100%"}}src="https://festivalceremonia.com/img/FC2021/CEREMONIOS0022.jpg" alt=""/>
                 <p>
-<b>@CALACAS</b>  <br/>
+                <a href="https://instagram.com/calacas" target="_blank" className="colabos" rel="noopener noreferrer" alt="instagram"><b>@CALACAS</b></a>  <br/>
 FUNDADOR CEREMONIOS                </p>
                 </div>
                 <div className="cardq">
                 <img className="enft" style={{width:"100%"}}src="https://festivalceremonia.com/img/FC2021/CEREMONIOS0032.jpg" alt=""/>
                 <p>
-<b>@FRANCISCOOUTON</b>  <br/>
+                <a href="https://instagram.com/franciscoouton" target="_blank" className="colabos" rel="noopener noreferrer" alt="instagram"><b>@FRANCISCOOUTON</b></a>  <br/>
 FUNDADOR CEREMONIOS
 <br/> DIRECTOR CREATIVO                </p>
                 </div>
                 <div className="cardq">
                   <img className="enft" style={{width:"100%"}}src="https://festivalceremonia.com/img/FC2021/CEREMONIOS0101.jpg" alt=""/>
                   <p>
-<b>@ICEBLADE</b>  <br/>
+                  <a href="https://instagram.com/iceblade19" target="_blank" className="colabos" rel="noopener noreferrer" alt="instagram"><b>@ICEBLADE19</b></a>  <br/>
 ARTISTA               </p>
                 </div>
               </div>
@@ -61,25 +61,25 @@ ARTISTA               </p>
                 <div className="cardq">
                 <img className="enft" style={{width:"100%"}}src="https://festivalceremonia.com/img/FC2021/CEREMONIOS0592.jpg" alt=""/>
                 <p>
-<b>@BRYANMALGA</b>  <br/>
+                <a href="https://instagram.com/bryanmalg" target="_blank" className="colabos" rel="noopener noreferrer" alt="instagram"><b>@BRYANMALGA</b></a>  <br/>
 PROJECT LEADER                </p>
                 </div>
                 <div className="cardq">
                 <img className="enft" style={{width:"100%"}}src="https://festivalceremonia.com/img/FC2021/CEREMONIOS0574.jpg" alt=""/>
                 <p>
-<b>@CECIPERALTA</b>  <br/>
+                <a href="https://instagram.com/ceciperalta" target="_blank" className="colabos" rel="noopener noreferrer" alt="instagram"><b>@CECIPERALTA</b></a>  <br/>
 CONSULTORA CREATIVA                </p>
                 </div>
                 <div className="cardq">
                 <img className="enft" style={{width:"100%"}}src="https://festivalceremonia.com/img/FC2021/CEREMONIOS0571_1.jpg" alt=""/>
                 <p>
-<b>@LLEGOYEGO</b>  <br/>
+                <a href="https://instagram.com/llegoyego" target="_blank" className="colabos" rel="noopener noreferrer" alt="instagram"> <b>@LLEGOYEGO</b> </a> <br/>
 DIRECTOR DE ARTE<br/> DISEÑADOR CEREMONIA              </p>
                 </div>
                 <div className="cardq">
                 <img className="enft" style={{width:"100%"}}src="https://festivalceremonia.com/img/FC2021/CEREMONIOS0025.jpg" alt=""/>
                 <p>
-<b>@LEVIMENDUET</b>  <br/>
+                <a href="https://instagram.com/levimenduet" target="_blank" className="colabos" rel="noopener noreferrer" alt="instagram"><b>@LEVIMENDUET</b> </a> <br/>
 ESTRATEGA VIRTUAL               </p>
                 </div>
               </div>

@@ -1,11 +1,11 @@
 import React from "react";
 
-export default class Ticker extends React.Component{
+export default class Ticker3 extends React.Component{
     render() {
     return(
 <>
 
- <div className="menu_animado slideText">
+ <div className="menu_animado3 slideText">
  <div className="menu_animado_int slideText-container">
      <div className="menu_animado_scroll slide-txt-js">
          <div className="m_a_item"><p>CEREMONIOS PROXIMAMENTE ●</p></div>

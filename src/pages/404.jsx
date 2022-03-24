@@ -4,7 +4,7 @@ import React from 'react';
 
 const NotFoundPage = () => {
 return(
-    <div>
+    <div style={{fontFamily:"MyFont"}}>
 <p className="centeryx">404 Not Found!</p>
 
  

@@ -7,7 +7,7 @@ export default class Slider1 extends React.Component {
         <section>
           <div className="fondo-1">
             <div className="slide-01-txt1">
-              <div className="">CEREMONIOS</div>
+              <div className=""><img className="logocere" src="https://festivalceremonia.com/img/FC2021/ceremonios-01.png" alt="ceremonios"/></div>
             </div>
             <div className="slide-01-txt2">
               <div>
@@ -21,12 +21,18 @@ export default class Slider1 extends React.Component {
                 <a className="boton01" href="https://discord.gg/RUANEmyasF">ÚNETE A DISCORD</a>
               </button>
             </div>
-
-            {/* <div className="slide-01-btndiv2">
+{/* 
+            <div className="slide-01-btndiv2">
               <button type="button" className="slide-01-btn2" target="_blank">
-                <a className="boton012" href="https://ceremonia.neefter.com">M  I  N  T</a>
+                <a className="boton012" href="https://ceremonia.neefter.com"> M  I  N  T</a>
               </button>
-            </div> */}
+            </div> 
+
+            <div className="slide-01-btndiv2">
+              <button type="button" className="slide-01-btn3" target="_blank">
+                <a className="boton013" href="/faqs">FAQs</a>
+              </button>
+            </div>  */}
           </div>
         </section>
       </>

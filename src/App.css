@@ -6,13 +6,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: transparent !important;
-  overflow-x:hidden;
   transition: background-color 2s ease-in;
 }
 
 html, body {
   scroll-behavior: smooth;
+  position:relative;
 }
+
 
 /* html:focus-within {
   scroll-behavior: smooth;
@@ -72,11 +73,32 @@ background: #25B53E;
 
 .videoWrapper iframe, .videoWrapper object, .videoWrapper embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-.black_tkt .boton p:hover {
-background-color: 
-#7935db ;
+
+.video-containerp {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 2rem;  height: 0;
+  overflow: hidden;
+
 
 }
+
+.video-containerp iframe, .video-containerp object, .video-containerp embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+
+.youtubevideowrap {
+  width: 80%;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+
 
 
 
@@ -562,6 +584,14 @@ body {
 
 @media (max-width: 576px) {
 
+  .video-containerp{
+    margin:2.5rem;
+  }
+
+  .faqcontainer {
+    padding: 2.6rem;
+  }
+ 
   .black_tkt .boleto_superior h2 img {
     max-width:7rem;
   }
@@ -763,6 +793,15 @@ body {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
 
+
+  .video-containerp{
+    margin:2.5rem;
+  }
+
+  .faqcontainer {
+    padding:3.6rem;
+}
+
   .black_tkt .boleto_superior h2 img {
     max-width:7rem;
   }
@@ -919,8 +958,17 @@ position:relative;
 
 
 
+
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+  .video-containerp{
+    margin:2.5rem;
+  }
+
+  .faqcontainer {
+    padding: 5.6rem;
+}
 
   .black_tkt .boleto_superior h2 img {
     max-width:7rem;
@@ -1068,6 +1116,15 @@ position:relative;
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
+  .video-containerp{
+    margin:7.5rem;
+  }
+
+
+  .faqcontainer {
+    padding: 5.6rem;
+}
+
   .black_tkt .boleto_superior h2 img {
     max-width:7rem;
   }
@@ -1207,6 +1264,14 @@ position:relative;
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+  .video-containerp{
+    margin:7.5rem;
+  }
+
+  .faqcontainer {
+    padding: 5.6rem;
+}
 
   .black_tkt .boleto_superior h2 img {
     max-width:7rem;
@@ -1736,6 +1801,7 @@ max-width:15rem !important;
 
 
 #navibar {
+  display:block;
  padding: 20px 20px;
   position: fixed;
   z-index:20;
@@ -1766,8 +1832,8 @@ justify-items: center;
 text-align:center;
   list-style: none;
   padding: 10px;
-  margin: 5px;
-  max-width: 5rem;
+  margin: 3px;
+  max-width: 6rem;
   text-align: center;
   border-radius: 2px;
 }
@@ -1812,6 +1878,14 @@ background-color: #fff;
   color: #000;
 }
 
+#listado:nth-child(8),
+.bloques:nth-child(8) {
+background-color: #7935db;
+  color: white;
+}
+
+
+
 
 
 .bloques {
@@ -1831,7 +1905,7 @@ background-color: #fff;
       #logonavbar {
 padding-top:.8rem;
 padding-bottom:.8rem;
-max-width:4rem !important;
+max-width:3.8rem !important;
 }
     }
   
@@ -1873,13 +1947,33 @@ max-width:11rem !important;
 .menu_animado{
 position:relative;
   left: 0;
-  background-color: #fde305;
+  background-color: #fc2294;
   z-index: 15;
-
+color: #fb9e28;
   width: 110%;
   overflow: hidden;
   /* padding: 2px 0px 1px; */
 }
+.menu_animado2{
+  position:relative;
+    left: 0;
+    background-color: #cdfd34;
+    z-index: 15;
+  color:#51ce51;
+    width: 110%;
+    overflow: hidden;
+    /* padding: 2px 0px 1px; */
+  }
+  .menu_animado3{
+    position:relative;
+      left: 0;
+      background-color: #fb9e28;
+      z-index: 15;
+    color:#fc2294;
+      width: 110%;
+      overflow: hidden;
+      /* padding: 2px 0px 1px; */
+    }
 .menu_animado_int{
       position: relative;
       height: 100%;
@@ -1918,7 +2012,7 @@ to {
 .m_a_item{
   display: inline-block;
   /* margin: 0px 7px; */
-  font-size: 36px;
+  font-size: 25px;
   position: relative;
 }
 .m_a_item p{
@@ -1941,13 +2035,151 @@ to {
 
 @media (min-width: 1px) and (max-width: 403px) {
   #navibar a {
-    font-size: 12px !important;
+    font-size: 11px !important;
   }
 
+  .faqcontainer {
+    padding: 2.6rem;
+
+
+  }  
 }
 
 
 
 #ceremon:hover{
   color:white;
+}
+
+
+
+
+
+
+
+
+ .faqcentro{
+  margin: 0;
+ }
+
+.faqcentro{
+  display:block;
+  margin:0 auto;
+}
+
+
+#logo-image {
+  width: 100px;
+}
+
+.accordionq {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.accordionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  background: #fff;
+  color: black;
+  border-bottom: 1px solid #51ce51;
+  transition: 0.14s;
+}
+.accordionHeader:hover {
+  background: #f2f2f2;
+  cursor: pointer;
+}
+.accordionHeader svg {
+  width: 24px;
+  height: 24px;
+  fill: #E0E0E0;
+}
+
+.accordionContent {
+  padding: 16px;
+  background: #FFFFFF;
+}
+.accordionContent{
+  font-size:.7rem !important;
+  color:black;
+  border-bottom: 1px solid #51ce51;
+
+}
+.accordionHeader{
+  font-size:1rem !important;
+}
+
+
+.svgverde {
+  color: #51ce51;
+}
+
+.logocere {
+  max-width:60%;
+}
+
+
+
+.centrodiv {
+  background-color:white;
+  display: inline;
+}
+
+.centrotext {
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.centrotext3 {
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.centrotext1 {
+  background-color: white;
+  text-align: left;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.olista {
+  width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+}
+
+.listal {
+  font-size:.8rem;
+}
+
+.lista1{
+  background-color:white;
+  width:80%;
+  text-align:center;
+  margin:0 auto;
+}
+:root { background-attachment: fixed; }
+
+
+
+ 
+#backfaq{
+  /* background: url("https://festivalceremonia.com/74e07bea4d9cadb282d9.jpg") !important;
+  background-repeat: no-repeat !important;
+  background-position: 50% 50% !important;
+  background-attachment: fixed !important;
+  background-color: transparent !important;
+  background-size: cover !important;z-index:25 !important; */
+}
+
+#cxmon{
+  max-width: 50%;
+    padding-bottom: 1rem;
 }

@@ -13,8 +13,8 @@ ReactDOM.render(
     <React.StrictMode>
       <App />      
 
-      <header className="video-header">
-        <div id="video-nft">
+      <header className="video-header" id="video-header">
+        <div id="video-nft vidx">
         <video   
 src="/video/back.mp4"
           muted

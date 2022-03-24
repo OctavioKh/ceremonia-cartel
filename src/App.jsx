@@ -8,12 +8,13 @@ import CasaPage from'./pages/home.jsx';
 import Videos from './pages/videos.jsx';
 import Menu from './Nav.js';
 import NFT from './pages/nft.jsx';
+import FaqPage from './components/faqs.js'
 
 
 
 function App() {   
     return (
-      <Fragment className="App">
+      <Fragment >
         <Router>
           {/* <Menu/> */}
             <Switch>
@@ -21,6 +22,7 @@ function App() {
       <Route exact path="/404" component={NotFoundPage} />
       <Route exact path="/ceremonios" component={NFT} />
     <Route exact path="/home" component={CasaPage}/>
+    <Route exact path="/faqs" component={FaqPage}/>
       <Redirect to="/404" component={NotFoundPage} />
       </Switch> 
           </Router>
