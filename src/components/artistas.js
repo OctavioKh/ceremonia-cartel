@@ -312,6 +312,7 @@ class Artistas extends React.Component {
 
           <img src={strip2} className="strip" />
         </div>
+        
       </>
     );
   }

@@ -59,9 +59,9 @@ var currentScrollPos = window.pageYOffset;
           <a id="listado"  href="/ceremonios">
             Ceremonios
           </a>
-          {/* <a id="listado"  href="/faqs">
+            <a id="listado"  href="/faqs">
             FAQ's
-          </a> */}
+          </a>  
         
         </div>
         </div>

@@ -1511,10 +1511,16 @@ position:relative;
 }
 .listado {
   min-height: 270px;
-  display: flex;
   align-items: center;
   justify-content: flex-start;
 }
+
+.listado1 {
+  display: flex;
+}
+
+
+
 .listado ul {
   padding: 0px;
   list-style: none;

@@ -41,11 +41,10 @@ class Boletos extends React.Component {
 						<h2>PLUS<div className="morado"> <img src="https://festivalceremonia.com/img/FC2021/comfort-01.svg"/></div></h2>
 						<p className="precio">$2,039 </p>
 						<p class="incluye"><span>I</span><span>N</span><span>C</span><span>L</span><span>U</span><span>Y</span><span>E</span><span>:</span></p>
-						<div className="listado">
+						<div style={{display:"block !important"}} className="listado1 listado">
 							<ul>
 								<li>Acceso a baños privados con aire acondicionado</li>
 								<li>Entrada exclusiva y rápida al festival</li>
-								<li>Barras exclusivas para Comfort Pass</li>
 							
 							</ul>
 						</div>

@@ -32,6 +32,7 @@ var currentScrollPos = window.pageYOffset;
         <AnchorLink id="listado" href="#mapa">Lugar</AnchorLink>
         <AnchorLink id="listado" href="#boletos">Boletos</AnchorLink>
         <AnchorLink id="listado" href="/ceremonios">Ceremonios</AnchorLink>
+        <AnchorLink id="listado" href="/registro">Pre-registro</AnchorLink>
 </div>
        </>
       );
