@@ -47,13 +47,14 @@ var currentScrollPos = window.pageYOffset;
 <div id="navibar">
 <a><img src="https://festivalceremonia.com/img/FC2021/crmn.png" id="logonavbar" alt="logo"/>
 </a>
- <a id="listado" href="#cartel">Cartel</a>
  <a id="listado" href="#videob">2022</a>
+ {/* <a id="listado" href="#videob">2022</a> */}
         <a id="listado" href="#artistas">Artistas</a>
+        <a id="listado" href="#horarios">Horarios</a>
         <a id="listado" href="#mapa">Lugar</a>
         <a id="listado" href="#boletos">Boletos</a>
           <a id="listado"  href="/ceremonios">Ceremonios</a>   
-          <a id="listado"  href="/registro">Pre-Registro</a>   
+          <a id="listado"  href="/registro">Reembolso</a>   
          {/* <a id="listado" href="#cartel">Cartel</a>
  <a id="listado" href="#videob">2022</a>
         <AnchorLink id="listado" href="#artistas">Artistas</AnchorLink>
@@ -81,6 +82,21 @@ class Banner extends React.Component {
     );
   }
 }
+
+class Horarios extends React.Component {
+  render() {
+    return (
+            <div className="banner" >
+              <img
+                alt="Horarios Ceremonia 2022"
+                className="banner_img"
+                src="https://festivalceremonia.com/img/FC2021/horarios.png"
+              />
+            </div>
+    );
+  }
+}
+
 
 class VideoCartel extends React.Component {
   render() {
@@ -139,6 +155,14 @@ class MainPage extends React.Component {
         <div id="artistas">
         <Artistas  />
         </div>
+
+<div id="horarios">
+<Horarios/>
+
+
+
+</div>
+<img src={strip} className="strip"/>
         
         <div id="boletos">
            <Boletos /> 

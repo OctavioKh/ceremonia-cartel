@@ -15,8 +15,8 @@ class Boletos extends React.Component {
 				<div className="tkt_int">
 					<div className="boleto_superior">
 						<h2 className="general_tkt">GENERAL</h2>
-						<p className="precio">$1,799</p>
-						<p class="incluye"><span>I</span><span>N</span><span>C</span><span>L</span><span>U</span><span>Y</span><span>E</span><span>:</span></p>
+						<p className="precio">$1,899</p>
+						<p className="incluye"><span>I</span><span>N</span><span>C</span><span>L</span><span>U</span><span>Y</span><span>E</span><span>:</span></p>
 						<div className="listado-izq">
 							<ul>
 								<li>Acceso al Festival.</li>
@@ -39,8 +39,8 @@ class Boletos extends React.Component {
 					<div className="boleto_superior">
 
 						<h2>PLUS<div className="morado"> <img src="https://festivalceremonia.com/img/FC2021/comfort-01.svg"/></div></h2>
-						<p className="precio">$2,039 </p>
-						<p class="incluye"><span>I</span><span>N</span><span>C</span><span>L</span><span>U</span><span>Y</span><span>E</span><span>:</span></p>
+						<p className="precio">$2,259 </p>
+						<p className="incluye"><span>I</span><span>N</span><span>C</span><span>L</span><span>U</span><span>Y</span><span>E</span><span>:</span></p>
 						<div style={{display:"block !important"}} className="listado1 listado">
 							<ul>
 								<li>Acceso a baños privados con aire acondicionado</li>
@@ -67,7 +67,7 @@ class Boletos extends React.Component {
 
 						<h2>PLUS<div className="morado"> <img src="https://festivalceremonia.com/img/FC2021/plus-01-01.png"/></div></h2>
 						<p className="precio">$2,849</p>
-						<p class="incluye"><span>I</span><span>N</span><span>C</span><span>L</span><span>U</span><span>Y</span><span>E</span><span>:</span></p>
+						<p className="incluye"><span>I</span><span>N</span><span>C</span><span>L</span><span>U</span><span>Y</span><span>E</span><span>:</span></p>
 						<div className="listado">
 							<ul>
 								<li>Fast Lane</li>

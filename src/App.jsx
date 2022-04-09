@@ -9,7 +9,7 @@ import Videos from './pages/videos.jsx';
 import Menu from './Nav.js';
 import NFT from './pages/nft.jsx';
 import FaqPage from './components/faqs.js'
-import Registro from './components/registro.html';
+import Registro from './components/registro.js';
 
 
 
@@ -22,6 +22,7 @@ function App() {
       <Route exact path="/" component={MainPage} />
       <Route exact path="/404" component={NotFoundPage} />
       <Route exact path="/ceremonios" component={NFT} />
+      <Route exact path="/registro" component={Registro} />
 
     <Route exact path="/home" component={CasaPage}/>
     <Route exact path="/faqs" component={FaqPage}/>

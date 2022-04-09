@@ -41,13 +41,16 @@ var currentScrollPos = window.pageYOffset;
               alt="logo"
             />
           </a>
-          <a id="listado" href="/#cartel">
+          {/* <a id="listado" href="/#cartel">
             Cartel
-          </a>
+          </a> */}
           <a id="listado" href="/#videob">
             2022
           </a>
           <a id="listado" href="/#artistas">
+            Artistas
+          </a>
+          <a id="listado" href="/#horarios">
             Artistas
           </a>
           <a id="listado" href="/#mapa">

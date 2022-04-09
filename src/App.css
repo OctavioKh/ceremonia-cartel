@@ -3,17 +3,39 @@ body {
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif; */
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased  ;
   -moz-osx-font-smoothing: grayscale;
   background-color: transparent !important;
   transition: background-color 2s ease-in;
 }
 
 html, body {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
   position:relative;
 }
+video::-webkit-media-controls-overlay-play-button {
+  display: none;
+}
 
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+:host::shadow::-webkit-media-controls-container{ display: none!important;}
+
+
+.slide-03-ban-imagez {
+  /* object-fit: contain; */
+  /* height: 100%; */
+  width: 20%;
+  /* padding: 10px; */
+}
+.slide-03-ban-imagezz {
+ 
+  width: 16%;
+  /* padding: 10px; */
+}
 
 /* html:focus-within {
   scroll-behavior: smooth;
@@ -27,6 +49,11 @@ html, body {
   text-align:center;
   margin: 0 auto;
   display:block;
+}
+
+.centrotext1{
+  text-align:center;
+  margin:0 auto !important;
 }
 
 .dos:after {
@@ -907,9 +934,11 @@ position:relative;
 }
 
 .contenido.contenido_boletos .columna {
-  width: 1.5rem;
-  flex: 1;
-  padding: 20px 50px 0px 50px;
+  /* width: 1.5rem; */
+  margin:0 auto;
+  display:block;
+  padding: 10px 20px 10px 20px;
+  width:90% !important;
 }
 
 
@@ -954,6 +983,9 @@ position:relative;
     max-width: 90% !important;
     border-radius: 5px;
   }
+
+
+
 }
 
 
@@ -1063,16 +1095,18 @@ position:relative;
   }
 
   .contenido.contenido_boletos .columna {
-    width: 1.5rem;
+    /* width: 1.5rem; */
     flex: 1;
-    padding: 20px 50px 0px 50px;
+    padding:10px 20px 0px 20px;
   }
 
   .redes_footer .red {
     margin: 8px 8px;
   }
  
-  
+  .columna{
+    max-width:33.33%!important;
+  }
 
  
   #Righty {
@@ -1223,9 +1257,9 @@ position:relative;
   }
   
   .contenido.contenido_boletos .columna {
-    width: 1.5rem;
+    /* width: 1.5rem; */
     flex: 1;
-    padding: 20px 50px 0px 50px;
+    padding: 10px 20px 0px 20px;
   }
 
   #Righty {
@@ -1380,7 +1414,7 @@ position:relative;
 
   
   .contenido.contenido_boletos .columna {
-    width: 1.5rem;
+    /* width: 1.5rem; */
     flex: 1;
     padding: 20px 50px 0px 50px;
   }
@@ -1795,7 +1829,7 @@ position:relative;
 
 
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 
@@ -2188,4 +2222,13 @@ to {
 #cxmon{
   max-width: 50%;
     padding-bottom: 1rem;
+}
+
+.regis{
+  width: 80% !important;
+  margin:0 auto !important;
+}
+
+.paddin{
+  paddingTop:100px;
 }
